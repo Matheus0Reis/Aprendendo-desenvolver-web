@@ -1,0 +1,1401 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br">
+
+<!-- Mirrored from www.gamegol.com.br/2.0/_home/? by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 17 Apr 2025 01:33:42 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+    <title>Game Gol</title>
+    <link href="css/pt-br/imgIcos.css" rel="stylesheet" type="text/css" />
+    <link href="css/geral.css" rel="stylesheet" type="text/css" />
+    <link href="js/jquery.tooltip/tipTip.css" rel="stylesheet" type="text/css" />
+    <link href="../funcoes/js/jquery.ui/css/ui-lightness/jquery-ui-1.8.16.custom.css" rel="stylesheet" type="text/css" />
+    <script data-ad-client="ca-pub-7386089742698796" async src="../../../pagead2.googlesyndication.com/pagead/js/f.txt"></script>
+</head>
+<body>
+	
+    
+    <div id="containerConteudo">
+        <div id="topo">
+            <div id="barraTopo">
+                <div class="conteudo">
+                    <ul>
+                        <li class="logo"><a href="http://www.gamegol.com.br/" title="Home" class="icoFlamulaGG"></a></li>
+                        <li class="forum"><a href="http://ggforum.forumbrasil.net/" title="Forum" target="_blank">fórum</a></li>
+                        <li class="revista" style="opacity:0;pointer-events:none;"><a href="#" title="Revista" target="_blank">revista +gol</a></li>
+                        <li class="facebook"><a href="http://www.facebook.com/GameGolOficial" title="Visitar página do Facebook" target="_blank" class="icoFBMin"></a></li>
+                        <li class="twitter"><a href="http://twitter.com/GameGolOficial" title="Visitar página no Twitter" target="_blank" class="icoTwitterMin"></a></li>
+                        <li class="ajuda"><a href="http://pt-br.gamegol.wikia.com/wiki/Main_Page" title="Ajuda" class="icoHelpMin" target="_blank">ajuda</a></li>
+                        <li class="like" style="position: absolute; margin-left: 610px; margin-top: 7px;">
+                            <div class="fb-like" data-href="http://www.facebook.com/GameGolOficial" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false" data-font="arial"></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="meioTopo"><a href="http://www.gamegol.com.br/"></a></div>
+            <div id="baseTopo">
+                <div class="conteudo">
+                    <div id="formLogin" style="display:flex;justify-content:center;align-items:center;">
+                        <form name="frmLogin" id="frmLogin" method="post" action="https://www.gamegol.com.br/2.0/_home/index.login.asp?errJs=s">
+                            <div class="blocoForms">
+                                <label for="iptUsuario" class="labelUser">login</label>
+                                <input type="text" tabindex="1" name="iptUsuario" id="iptUsuario" value="" maxlength="30" />
+                                <input type="checkbox" tabindex="3" name="iptRepass" id="iptRepass"  value="true" />
+                                <label for="iptRepass" class="labelRepass">lembrar senha</label>
+                            </div>
+                            <div class="blocoForms">
+                                <label for="iptSenha" class="labelSenha">senha</label>
+                                <input type="password" tabindex="2" name="iptSenha" id="iptSenha" value="" maxlength="30" />
+                                <a href="javascript:void(0)" title="Clique para solicitar uma nova senha">esqueci minha senha</a>
+                            </div>
+                            <button type="submit" class="btOk" tabindex="4"></button>
+                            <input type="hidden" id="autoLogin" name="autoLogin" value="">
+                            <input type="hidden" id="ckPass" name="ckPass" value="">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="errLogin"></div>
+        <div id="corpo">
+            <div id="bannersEsq">
+                <div class="botoes">
+                    <ul>
+                        <li class="btBola"></li>
+                        <li class="btGG"></li>
+                        <li class="btTv"></li>
+                        <li class="btEscritorio"></li>
+                        <li class="btCompeticoes"></li>
+                        <li class="btClas"></li>
+                        <li class="btAjuda"></li>
+                    </ul>
+                </div>
+                <div class="banners">
+                    <ul>
+                        <li class="img">
+                            <img src="imgs/pt-br/padrao/banners/gamegol_0001.jpg" width="605" height="473" border="0" /></li>
+                        <li class="img">
+                            <img src="imgs/pt-br/padrao/banners/gamegol_0002.jpg" width="605" height="473" border="0" /></li>
+                        <li class="img">
+                            <img src="imgs/pt-br/padrao/banners/gamegol_0003.jpg" width="605" height="473" border="0" /></li>
+                        <li class="img">
+                            <img src="imgs/pt-br/padrao/banners/gamegol_0004.jpg" width="605" height="473" border="0" /></li>
+                        <li class="img">
+                            <img src="imgs/pt-br/padrao/banners/gamegol_0005.jpg" width="605" height="473" border="0" /></li>
+                        <li class="img">
+                            <img src="imgs/pt-br/padrao/banners/gamegol_0006.jpg" width="605" height="473" border="0" /></li>
+                        <li class="img">
+                            <img src="imgs/pt-br/padrao/banners/gamegol_0007.jpg" width="605" height="473" border="0" />
+                            <a href="http://pt-br.gamegol.wikia.com/wiki/Main_Page" title="Ajuda" class="helpBanner1" target="_blank"></a><a href="http://pt-br.gamegol.wikia.com/wiki/Main_Page" title="Ajuda" class="helpBanner2" target="_blank"></a>
+                            <form name="frmLembrarSenha" id="frmLembrarSenha" method="post" action="https://www.gamegol.com.br/2.0/_home/index.lembrar_senha.asp?errJs=s">
+                                <input type="text" name="iptLembrarSenha" id="iptLembrarSenha" maxlength="80" tabindex="14" />
+                                <button type="submit" name="btLembrarSenha" id="btLembrarSenha" class="btEnviar"></button>
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="formCadastro">
+                <form name="frmCadastro" id="frmCadastro" method="post" action="https://www.gamegol.com.br/2.0/_home/index.cadastro.asp?errJs=s">
+                    <div class="conteudo">
+                        <span class="titCadastro"></span>
+                        <div class="corpoCadastro">
+                            <label for="iptCadUsuario">Usuário</label>
+                            <input type="text" name="iptCadUsuario" id="iptCadUsuario" tabindex="5" maxlength="30" />
+                            <label for="iptCadSenha">Senha</label>
+                            <input type="password" name="iptCadSenha" id="iptCadSenha" tabindex="6" maxlength="12" />
+                            <label for="iptCadCSenha">Confirmar Senha</label>
+                            <input type="password" name="iptCadCSenha" id="iptCadCSenha" tabindex="7" maxlength="12" />
+                            <label for="iptCadEmail">E-mail</label>
+                            <input type="text" name="iptCadEmail" id="iptCadEmail" tabindex="8" maxlength="80" />
+                            <label for="iptCadEquipe">Nome da Equipe</label>
+                            <input type="text" name="iptCadEquipe" id="iptCadEquipe" tabindex="9" maxlength="30" />
+                            <label for="iptCadSigla">Sigla</label>
+                            <input type="text" name="iptCadSigla" id="iptCadSigla" tabindex="10" maxlength="4" />
+                            <label for="iptCadEstadio">Nome do Estádio</label>
+                            <input type="text" name="iptCadEstadio" id="iptCadEstadio" tabindex="11" maxlength="15" />
+                            <input type="checkbox" name="iptCadTermo" id="iptCadTermo" value="true" tabindex="12" />
+                            <label for="iptCadTermo" class="iptCadTermo">Li e concordo com os <a rotina="exibeTermo" href="javascript:void(0);" title="Exibir Termos de Uso">Termos de Uso</a></label>
+                        </div>
+                    </div>
+                    <button class="btCadastrar" type="submit" tabindex="13"></button>
+                    <input type="hidden" name="tp" id="tp" value="1" />
+                    <input type="hidden" name="facebookID" id="facebookID" value="" />
+                    <input type="hidden" name="twitterID" id="twitterID" value="" />
+                    <input type="hidden" name="twitterUser" id="twitterUser" value="" />
+                    <input type="hidden" name="twitterNome" id="twitterNome" value="" />
+                    <input type="hidden" name="twitterImagem" id="twitterImagem" value="" />
+                    <input type="hidden" name="twitterIdioma" id="twitterIdioma" value="" />
+                    <input type="hidden" name="googleEmail" id="googleEmail" value="" />
+                    <input type="hidden" name="googleIdioma" id="googleIdioma" value="" />
+                </form>
+            </div>
+            <div class="cb">&nbsp;</div>
+            
+    <div id="ranking">
+        <div class="titBarraRanking"><span class="txtTitRanking"></span></div>
+        <div class="colocacoes">
+            <ul>
+                <li class="RKgeral">
+                    <ul>
+                        <li class="titRnkGeral"></li>
+                        <li class="Rkeqp"><span class="pos">1</span><span class="sep">&#8226;</span><span class="nome" title="US RIODEJANEIRO"><a href="https://www.gamegol.com.br:443/_perfil_externo/clube.asp?nCodigo=238689" target="_blank">us riodejaneiro</a></span></li><li class="Rkeqp"><span class="pos">2</span><span class="sep">&#8226;</span><span class="nome" title="=MANÍACOS=FC"><a href="https://www.gamegol.com.br:443/_perfil_externo/clube.asp?nCodigo=25879" target="_blank">=maníacos=fc</a></span></li><li class="Rkeqp"><span class="pos">3</span><span class="sep">&#8226;</span><span class="nome" title="US LECOQ"><a href="https://www.gamegol.com.br:443/_perfil_externo/clube.asp?nCodigo=288897" target="_blank">us lecoq</a></span></li><li class="Rkeqp"><span class="pos">4</span><span class="sep">&#8226;</span><span class="nome" title="TAKA'S F.C."><a href="https://www.gamegol.com.br:443/_perfil_externo/clube.asp?nCodigo=624014" target="_blank">taka's f.c.</a></span></li><li class="Rkeqp"><span class="pos">5</span><span class="sep">&#8226;</span><span class="nome" title="ANÚBIS F.C"><a href="https://www.gamegol.com.br:443/_perfil_externo/clube.asp?nCodigo=474875" target="_blank">anúbis f.c</a></span></li><li class="Rkeqp"><span class="pos">6</span><span class="sep">&#8226;</span><span class="nome" title="C. D. PAVILHAO 9"><a href="https://www.gamegol.com.br:443/_perfil_externo/clube.asp?nCodigo=218052" target="_blank">c. d. pavilhao 9</a></span></li><li class="Rkeqp"><span class="pos">7</span><span class="sep">&#8226;</span><span class="nome" title="FENERBAHÇE SPOR KULÜBÜ"><a href="https://www.gamegol.com.br:443/_perfil_externo/clube.asp?nCodigo=644767" target="_blank">fenerbahçe spor kulübü</a></span></li><li class="Rkeqp"><span class="pos">8</span><span class="sep">&#8226;</span><span class="nome" title="US GAROTINHO"><a href="https://www.gamegol.com.br:443/_perfil_externo/clube.asp?nCodigo=37146" target="_blank">us garotinho</a></span></li><li class="Rkeqp"><span class="pos">9</span><span class="sep">&#8226;</span><span class="nome" title="CARAVELA SUPREMA - RT"><a href="https://www.gamegol.com.br:443/_perfil_externo/clube.asp?nCodigo=540260" target="_blank">caravela suprema - rt</a></span></li><li class="Rkeqp"><span class="pos">10</span><span class="sep">&#8226;</span><span class="nome" title="LOUKOS FUTEBOL CLUBE®"><a href="https://www.gamegol.com.br:443/_perfil_externo/clube.asp?nCodigo=277817" target="_blank">loukos futebol clube®</a></span></li>
+                        <li class="baseRnkGeral"></li>
+                    </ul>
+                </li>
+                <li class="RKanual">
+                    <ul>
+                        <li class="titRnkAnual"></li>
+                        <li class="Rkeqp"><span class="pos">1</span><span class="sep">&#8226;</span><span class="nome" title="GT SÃO PAULO INDESTRUTÍVEL"><a href="https://www.gamegol.com.br:443/_perfil_externo/clube.asp?nCodigo=1025778" target="_blank">gt são paulo indestrutível</a></span></li><li class="Rkeqp"><span class="pos">2</span><span class="sep">&#8226;</span><span class="nome" title="US RIODEJANEIRO"><a href="https://www.gamegol.com.br:443/_perfil_externo/clube.asp?nCodigo=1025778" target="_blank">us riodejaneiro</a></span></li><li class="Rkeqp"><span class="pos">3</span><span class="sep">&#8226;</span><span class="nome" title="SAF - MAGO BILIONÁRIO"><a href="https://www.gamegol.com.br:443/_perfil_externo/clube.asp?nCodigo=1025778" target="_blank">saf - mago bilionário</a></span></li><li class="Rkeqp"><span class="pos">4</span><span class="sep">&#8226;</span><span class="nome" title="CALHAUS"><a href="https://www.gamegol.com.br:443/_perfil_externo/clube.asp?nCodigo=1025778" target="_blank">calhaus</a></span></li><li class="Rkeqp"><span class="pos">5</span><span class="sep">&#8226;</span><span class="nome" title="SAF BOTAFOGO F.C"><a href="https://www.gamegol.com.br:443/_perfil_externo/clube.asp?nCodigo=1025778" target="_blank">saf botafogo f.c</a></span></li><li class="Rkeqp"><span class="pos">6</span><span class="sep">&#8226;</span><span class="nome" title="US LECOQ"><a href="https://www.gamegol.com.br:443/_perfil_externo/clube.asp?nCodigo=1025778" target="_blank">us lecoq</a></span></li><li class="Rkeqp"><span class="pos">7</span><span class="sep">&#8226;</span><span class="nome" title="PARANÁ CLUBE - RT"><a href="https://www.gamegol.com.br:443/_perfil_externo/clube.asp?nCodigo=1025778" target="_blank">paraná clube - rt</a></span></li><li class="Rkeqp"><span class="pos">8</span><span class="sep">&#8226;</span><span class="nome" title="FAMILIA FUTEBOL CACHAÇA"><a href="https://www.gamegol.com.br:443/_perfil_externo/clube.asp?nCodigo=1025778" target="_blank">familia futebol cachaça</a></span></li><li class="Rkeqp"><span class="pos">9</span><span class="sep">&#8226;</span><span class="nome" title="=MANÍACOS=FC"><a href="https://www.gamegol.com.br:443/_perfil_externo/clube.asp?nCodigo=1025778" target="_blank">=maníacos=fc</a></span></li><li class="Rkeqp"><span class="pos">10</span><span class="sep">&#8226;</span><span class="nome" title="DYNASTY E-SPORTS CLUB"><a href="https://www.gamegol.com.br:443/_perfil_externo/clube.asp?nCodigo=1025778" target="_blank">dynasty e-sports club</a></span></li>
+                        <li class="baseRnkAnual"></li>
+                    </ul>
+                </li>
+                <li class="RKmensal">
+                    <ul>
+                        <li class="titRnkMensal"></li>
+                        <li class="Rkeqp"><span class="pos">1</span><span class="sep">&#8226;</span><span class="nome" title="IN$ANOS"><a href="https://www.gamegol.com.br:443/_perfil_externo/clube.asp?nCodigo=61507" target="_blank">in$anos</a></span></li><li class="Rkeqp"><span class="pos">2</span><span class="sep">&#8226;</span><span class="nome" title="US RIODEJANEIRO"><a href="https://www.gamegol.com.br:443/_perfil_externo/clube.asp?nCodigo=61507" target="_blank">us riodejaneiro</a></span></li><li class="Rkeqp"><span class="pos">3</span><span class="sep">&#8226;</span><span class="nome" title="SAF - MAGO BILIONÁRIO"><a href="https://www.gamegol.com.br:443/_perfil_externo/clube.asp?nCodigo=61507" target="_blank">saf - mago bilionário</a></span></li><li class="Rkeqp"><span class="pos">4</span><span class="sep">&#8226;</span><span class="nome" title="FÚRIA - O11 F.C."><a href="https://www.gamegol.com.br:443/_perfil_externo/clube.asp?nCodigo=61507" target="_blank">fúria - o11 f.c.</a></span></li><li class="Rkeqp"><span class="pos">5</span><span class="sep">&#8226;</span><span class="nome" title="FAMÍLIA FUTEBOL E CACHAÇA"><a href="https://www.gamegol.com.br:443/_perfil_externo/clube.asp?nCodigo=61507" target="_blank">família futebol e cachaça</a></span></li><li class="Rkeqp"><span class="pos">6</span><span class="sep">&#8226;</span><span class="nome" title="US TWISTER"><a href="https://www.gamegol.com.br:443/_perfil_externo/clube.asp?nCodigo=61507" target="_blank">us twister</a></span></li><li class="Rkeqp"><span class="pos">7</span><span class="sep">&#8226;</span><span class="nome" title="US LECOQ"><a href="https://www.gamegol.com.br:443/_perfil_externo/clube.asp?nCodigo=61507" target="_blank">us lecoq</a></span></li><li class="Rkeqp"><span class="pos">8</span><span class="sep">&#8226;</span><span class="nome" title="BRAHMA DE MUNCHEN"><a href="https://www.gamegol.com.br:443/_perfil_externo/clube.asp?nCodigo=61507" target="_blank">brahma de munchen</a></span></li><li class="Rkeqp"><span class="pos">9</span><span class="sep">&#8226;</span><span class="nome" title="TRICHOCEPHALUS F C"><a href="https://www.gamegol.com.br:443/_perfil_externo/clube.asp?nCodigo=61507" target="_blank">trichocephalus f c</a></span></li><li class="Rkeqp"><span class="pos">10</span><span class="sep">&#8226;</span><span class="nome" title="ICE TABACARIA CLUB"><a href="https://www.gamegol.com.br:443/_perfil_externo/clube.asp?nCodigo=61507" target="_blank">ice tabacaria club</a></span></li>
+                        <li class="baseRnkMensal"></li>
+                    </ul>
+                </li>
+                <li class="RKclas">
+                    <ul>
+                        <li class="titRnkClas"></li>
+                        <li class="Rkeqp"><span class="pos">1</span><span class="sep">&#8226;</span><span class="nome" title="UNIÃO SUPREMA"><a target="_blank">união suprema</a></span></li><li class="Rkeqp"><span class="pos">2</span><span class="sep">&#8226;</span><span class="nome" title="REVELATION TEAM"><a target="_blank">revelation team</a></span></li><li class="Rkeqp"><span class="pos">3</span><span class="sep">&#8226;</span><span class="nome" title="CEIFADORES"><a target="_blank">ceifadores</a></span></li><li class="Rkeqp"><span class="pos">4</span><span class="sep">&#8226;</span><span class="nome" title="GALÁTICOS"><a target="_blank">galáticos</a></span></li><li class="Rkeqp"><span class="pos">5</span><span class="sep">&#8226;</span><span class="nome" title="ADZ "><a target="_blank">adz </a></span></li><li class="Rkeqp"><span class="pos">6</span><span class="sep">&#8226;</span><span class="nome" title="XPLODERS"><a target="_blank">xploders</a></span></li><li class="Rkeqp"><span class="pos">7</span><span class="sep">&#8226;</span><span class="nome" title="USGD"><a target="_blank">usgd</a></span></li><li class="Rkeqp"><span class="pos">8</span><span class="sep">&#8226;</span><span class="nome" title="MAGISTÉRIO DA BOLA"><a target="_blank">magistério da bola</a></span></li><li class="Rkeqp"><span class="pos">9</span><span class="sep">&#8226;</span><span class="nome" title="UNIÃO VASCAÍNA"><a target="_blank">união vascaína</a></span></li><li class="Rkeqp"><span class="pos">10</span><span class="sep">&#8226;</span><span class="nome" title="UNIÃO SUPREMA GF              "><a target="_blank">união suprema gf              </a></span></li>
+                        <li class="baseRnkClas"></li>
+                    </ul>
+                </li>
+                <li class="RKjuniores">
+                    <ul>
+                        <li class="titRnkJuniores"></li>
+                        <li class="Rkeqp"><span class="pos">1</span><span class="sep">&#8226;</span><span class="nome" title="BART CLUB"><a href="https://www.gamegol.com.br:443/_perfil_externo/clube.asp?nCodigo=992165" target="_blank">bart club</a></span></li><li class="Rkeqp"><span class="pos">2</span><span class="sep">&#8226;</span><span class="nome" title="CORAÇÃO VALENTE - US"><a href="https://www.gamegol.com.br:443/_perfil_externo/clube.asp?nCodigo=992165" target="_blank">coração valente - us</a></span></li><li class="Rkeqp"><span class="pos">3</span><span class="sep">&#8226;</span><span class="nome" title="C. R. ESCUDETO"><a href="https://www.gamegol.com.br:443/_perfil_externo/clube.asp?nCodigo=992165" target="_blank">c. r. escudeto</a></span></li><li class="Rkeqp"><span class="pos">4</span><span class="sep">&#8226;</span><span class="nome" title="UNIÃO RECREATIVO TRINDADE"><a href="https://www.gamegol.com.br:443/_perfil_externo/clube.asp?nCodigo=992165" target="_blank">união recreativo trindade</a></span></li><li class="Rkeqp"><span class="pos">5</span><span class="sep">&#8226;</span><span class="nome" title="A. F. ARGENTINA"><a href="https://www.gamegol.com.br:443/_perfil_externo/clube.asp?nCodigo=992165" target="_blank">a. f. argentina</a></span></li><li class="Rkeqp"><span class="pos">6</span><span class="sep">&#8226;</span><span class="nome" title="MULTILASER SUPER"><a href="https://www.gamegol.com.br:443/_perfil_externo/clube.asp?nCodigo=992165" target="_blank">multilaser super</a></span></li><li class="Rkeqp"><span class="pos">7</span><span class="sep">&#8226;</span><span class="nome" title="REMO BOTAFOGO CLUBE"><a href="https://www.gamegol.com.br:443/_perfil_externo/clube.asp?nCodigo=992165" target="_blank">remo botafogo clube</a></span></li><li class="Rkeqp"><span class="pos">8</span><span class="sep">&#8226;</span><span class="nome" title="JOHN WICK"><a href="https://www.gamegol.com.br:443/_perfil_externo/clube.asp?nCodigo=992165" target="_blank">john wick</a></span></li><li class="Rkeqp"><span class="pos">9</span><span class="sep">&#8226;</span><span class="nome" title="ACME"><a href="https://www.gamegol.com.br:443/_perfil_externo/clube.asp?nCodigo=992165" target="_blank">acme</a></span></li><li class="Rkeqp"><span class="pos">10</span><span class="sep">&#8226;</span><span class="nome" title="BOYKA IMMORTAL - NIKO"><a href="https://www.gamegol.com.br:443/_perfil_externo/clube.asp?nCodigo=992165" target="_blank">boyka immortal - niko</a></span></li>
+                        <li class="baseRnkJuniores"></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="cb">&nbsp;</div>
+    </div>
+
+            <div class="cb">&nbsp;</div>
+        </div>
+        <div class="cb">&nbsp;</div>
+
+        <div id="rodape"><a href="http://www.gamegol.com.br/" class="logoRodape"></a><span class="barraSuperior"></span><span class="barraInferior"></span></div>
+    </div>
+    <form name="frmBlank" id="frmBlank" target="_blank" method="get">
+    </form>
+    <span class="objEqpBanidaFalida">
+        <div class="eqpBanidaFalida">
+            <label>Nome da equipe</label>
+            <span class="equipe"></span>
+            <label id="date-label">Data</label>
+            <span class="data"></span>
+            <label>Motivo</label>
+            <span class="motivo"></span>
+        </div>
+    </span>
+    <div id="mensagemBanido"></div>
+    <div id="mensagemFalido"></div>
+    <div id="termoAlterado"></div>
+    <div id="exibeTermo"></div>
+    <div id="regrasSplash"></div>
+    <div id="validaSplash"></div>
+    <div class="clever-core-ads"></div>
+    
+    <div style="overflow: auto; display: none;" class="ajaxSocialConnection" id="fb-root"></div>
+    <script type="text/javascript" src="../functions/js/jquery/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="../functions/js/jquery/ui/jquery-ui-1.8.20.custom.min.js"></script>
+    <script type="text/javascript" src="js/jquery.tooltip/jquery.tipTip.minified.js"></script>
+    <script type="text/javascript" src="../funcoes/js/jquery.crypt.js"></script>
+    <script type="text/javascript" src="js/scrollBanner.js"></script>
+    <script>
+	var navIE;
+	
+	// Extensões baseadas em jQuery
+	$.fn.extend({
+		switchClass: function(claOver, objDestino){
+			if(!$(objDestino)[0]){objDestino=$(this,$(this).closest('li'))};
+			$(this).bind('mouseover',function(){
+				if($(objDestino).attr('sel') != 'true'){$(objDestino,this).addClass(claOver)}
+			}).bind('mouseout',function(){
+				if($(objDestino).attr('sel') != 'true'){$(objDestino,this).removeClass(claOver)}
+			})
+		},
+		btnTxtTop: function(clasBt, clasBtHover){
+			var txt 	= $(this).html();
+			var title 	= $(this).attr('title');
+			var href 	= $(this).attr('href');
+			var target	= $(this).attr('target');
+			var spanIco = $('<span></span>').addClass(clasBt).css('float','left');
+			var spanTxt = $('<span>'+txt+'</span>').css({'padding':'2px 0 0 3px','float':'left'});
+			var spanAll = $('<span></span>').css({'cursor':'pointer','display':'inline-block'}).bind('click',function(){
+				if(target=='_blank'){$('#frmBlank').attr('action',href).submit()}else{window.location = href;};
+			}).attr('title',title);
+			
+			$(spanAll).append(spanIco).append(spanTxt);
+			$(this).after(spanAll);
+			$(spanAll).switchClass(clasBtHover,'.'+clasBt);
+			$(this).remove();
+		}
+	});
+
+	$.validateEmail = function (email){
+		er = /^[a-zA-Z0-9][a-zA-Z0-9\._-]+@([a-zA-Z0-9\._-]+\.)[a-zA-Z-0-9]{2}/;
+		if(er.exec(email)){
+			return true;
+		}else{
+			return false;
+		}
+	};
+
+	function ieCompatibilidade(){
+		$('#iptUsuario, #iptSenha','#frmLogin').css({'padding-top':'5px', 'height':'22px'});
+		$('#iptCadUsuario, #iptCadSenha, #iptCadCSenha, #iptCadEmail, #iptCadEquipe, #iptCadSigla, #iptCadEstadio','#frmCadastro').css({'padding-top':'5px', 'height':'22px'});
+		$('#iptLembrarSenha','#frmLembrarSenha').css({'padding-top':'5px', 'height':'22px'});
+	};
+	function resizeAction(){
+		$('a','#meioTopo').css('margin-left',(($('body').width()-186)/2)+'px')
+		$('a','#rodape').css('margin-left',(($('body').width()-136)/2)+'px')
+	};
+
+	
+	function oAuthTwitterConnect(params){
+		if(!params){
+			var janelaOAuth = window.open('http://twitter.com/oauth/authenticate?oauth_token=&amp;force_login=true', 'janelaOAuth', 'width=600,height=500,location=0,status=0,resizable=no');
+		}else{
+			switch(params[0]){
+				// sucesso, usuario ja cadastrado
+				case 0:
+					$('#autoLogin','#formLogin').val('S');
+					validaLogin();
+					break;
+				// sucesso, usuario ainda nao cadastrado
+				case 1:
+					/*
+					[1] = usuario
+					[2] = nome
+					[3] = img
+					[4] = id
+					[5] = language
+					*/
+					$('#iptCadUsuario','#frmCadastro').val(params[1]);
+					$('#twitterID','#frmCadastro').val(params[4]);
+					$('#twitterUser','#frmCadastro').val(params[1]);
+					$('#twitterNome','#frmCadastro').val(params[2]);
+					$('#twitterImagem','#frmCadastro').val(params[3]);
+					$('#twitterIdioma','#frmCadastro').val(params[5]);
+					validaCadastro();
+					break;
+				// cliente não autorizou
+				case -1:
+					$('#validaSplash').css({'padding':'0 10px 0 10px !important'}).html('Para se conectar usando sua conta do Twitter, você deve autorizar o aplicativo do Game Gol').dialog({
+						title: 'Autorização necessária',
+						autoOpen: true,
+						draggable: true,
+						width: 500,
+						buttons: {
+							'Autorização aplicativo': function(){
+								oAuthTwitterConnect();
+								$(this).dialog('close');
+							},
+							'Fechar': function(){
+								$(this).dialog('close')
+							}
+						}
+					});
+					preparaDialog('validaSplash');
+					break;
+				// erro no carregamento da pagina
+				case -2:
+					$('#validaSplash').css({'padding':'0 10px 0 10px !important'}).html('Ocorreu um erro enquanto processamos sua solicitação').dialog({
+						title: 'Erro no processamento',
+						autoOpen: true,
+						draggable: true,
+						width: 500,
+						buttons: {
+							'Autorização aplicativo': function(){
+								oAuthTwitterConnect();
+								$(this).dialog('close');
+							},
+							'Fechar': function(){
+								$(this).dialog('close')
+							}
+						}
+					});
+					preparaDialog('validaSplash');
+					break;
+				// erro no retorno
+				default:
+					$('#validaSplash').css({'padding':'0 10px 0 10px !important'}).html('Ocorreu um erro enquanto processamos sua solicitação').dialog({
+						title: 'Erro no processamento',
+						autoOpen: true,
+						draggable: true,
+						width: 500,
+						buttons: {
+							'Autorização aplicativo': function(){
+								oAuthTwitterConnect();
+								$(this).dialog('close');
+							},
+							'Fechar': function(){
+								$(this).dialog('close')
+							}
+						}
+					});
+					preparaDialog('validaSplash');
+					break;
+			}
+		}
+	};
+	function oAuthGoogleConnect(params){
+		if(!params){
+			var janelaOAuth = window.open('https://www.google.com/accounts/o8/ud?openid.ns=http%3A%2F%2Fspecs%2Eopenid%2Enet%2Fauth%2F2%2E0&amp;openid.mode=checkid%5Fsetup&amp;openid.return_to=https%3A%2F%2Fwww%2Egamegol%2Ecom%2Ebr%3A443%2F2%2E0%2F%5Fhome%2FsocialConnection%2FoAuthGoogleConnect%2Easp&amp;openid.realm=https%3A%2F%2Fwww%2Egamegol%2Ecom%2Ebr%3A443%2F&amp;openid.ns.ax=http%3A%2F%2Fopenid%2Enet%2Fsrv%2Fax%2F1%2E0&amp;openid.ax.mode=fetch%5Frequest&amp;openid.ax.type.firstName=http%3A%2F%2Faxschema%2Eorg%2FnamePerson%2Ffirst&amp;openid.ax.type.lastName=http%3A%2F%2Faxschema%2Eorg%2FnamePerson%2Flast&amp;openid.ax.type.email=http%3A%2F%2Faxschema%2Eorg%2Fcontact%2Femail&amp;openid.ax.type.country=http%3A%2F%2Faxschema%2Eorg%2Fcontact%2Fcountry%2Fhome&amp;openid.ax.type.language=http%3A%2F%2Faxschema%2Eorg%2Fpref%2Flanguage&amp;openid.ax.required=firstName%2ClastName%2Cemail%2Ccountry%2Clanguage&amp;openid.claimed_id=http%3A%2F%2Fspecs%2Eopenid%2Enet%2Fauth%2F2%2E0%2Fidentifier%5Fselect&amp;openid.identity=http%3A%2F%2Fspecs%2Eopenid%2Enet%2Fauth%2F2%2E0%2Fidentifier%5Fselect', 'janelaOAuth', 'width=900,height=510,location=0,status=0,resizable=no');
+		}else{
+			switch(params[0]){
+				// sucesso, usuario ja cadastrado
+				case 0:
+					$('#autoLogin','#formLogin').val('S');
+					validaLogin();
+					break;
+				// sucesso, usuario ainda nao cadastrado
+				case 1:
+					/*
+					[1] = nome
+					[2] = email
+					[3] = idioma
+					[4] = pais
+					*/
+					$('#iptCadEmail','#frmCadastro').val(params[2]);
+					$('#googleEmail','#frmCadastro').val(params[2]);
+					$('#googleIdioma','#frmCadastro').val(params[4]);
+					validaCadastro();
+					break;
+				// cliente não autorizou
+				case -1:
+					$('#validaSplash').css({'padding':'0 10px 0 10px !important'}).html('Para se conectar usando sua conta Google, você deve autorizar o site http://www.gamegol.com.br coletar algumas de suas informações').dialog({
+						title: 'Autorização necessária',
+						autoOpen: true,
+						draggable: true,
+						width: 500,
+						buttons: {
+							'Autorização aplicativo': function(){
+								oAuthGoogleConnect();
+								$(this).dialog('close');
+							},
+							'Fechar': function(){
+								$(this).dialog('close')
+							}
+						}
+					});
+					preparaDialog('validaSplash');
+					break;
+				// erro no tratamento da resposta
+				case -2:
+					$('#validaSplash').css({'padding':'0 10px 0 10px !important'}).html('Ocorreu um erro enquanto processamos sua solicitação').dialog({
+						title: 'Erro no processamento',
+						autoOpen: true,
+						draggable: true,
+						width: 500,
+						buttons: {
+							'Autorização aplicativo': function(){
+								oAuthGoogleConnect();
+								$(this).dialog('close');
+							},
+							'Fechar': function(){
+								$(this).dialog('close')
+							}
+						}
+					});
+					preparaDialog('validaSplash');
+					break;
+				// erro no carregamento da pagina
+				case -3:
+					$('#validaSplash').css({'padding':'0 10px 0 10px !important'}).html('Ocorreu um erro enquanto processamos sua solicitação').dialog({
+						title: 'Erro no processamento',
+						autoOpen: true,
+						draggable: true,
+						width: 500,
+						buttons: {
+							'Autorização aplicativo': function(){
+								oAuthGoogleConnect();
+								$(this).dialog('close');
+							},
+							'Fechar': function(){
+								$(this).dialog('close')
+							}
+						}
+					});
+					preparaDialog('validaSplash');
+					break;
+				// erro no retorno
+				default:
+					$('#validaSplash').css({'padding':'0 10px 0 10px !important'}).html('Ocorreu um erro enquanto processamos sua solicitação').dialog({
+						title: 'Erro no processamento',
+						autoOpen: true,
+						draggable: true,
+						width: 500,
+						buttons: {
+							'Autorização aplicativo': function(){
+								oAuthGoogleConnect();
+								$(this).dialog('close');
+							},
+							'Fechar': function(){
+								$(this).dialog('close')
+							}
+						}
+					});
+					preparaDialog('validaSplash');
+					break;
+			}
+		}
+	};
+	function validaLembrarSenha(){
+		var msgLembrar = ''
+		$('input','#frmLembrarSenha').removeClass('erro');
+		
+		var iptLembrarSenha = navIE ? $('#iptLembrarSenha','#frmLembrarSenha').val() : $('#iptLembrarSenha','#frmLembrarSenha').val().trim();
+		
+		if(iptLembrarSenha.length == 0){
+			msgLembrar = msgLembrar + 'O campo <strong>e-mail</strong> é obrigatório.<br />'
+			$('input','#frmLembrarSenha').addClass('erro')
+		}else{
+			if(!$.validateEmail(iptLembrarSenha)){
+				msgLembrar = msgLembrar + 'O campo <strong>e-mail</strong> possui um valor inválido.<br />'
+				$('input','#frmLembrarSenha').addClass('erro')
+			};
+		};
+		
+		if(msgLembrar.length > 0){
+			$('#validaSplash').css({'padding':'0 10px 0 10px !important'}).html(msgLembrar).dialog({
+				title: 'Recuperar Senha',
+				autoOpen: true,
+				draggable: true,
+				width: 500,
+				buttons: {
+					'Fechar': function(){
+						$(this).dialog('close');
+					}
+				}
+			});
+			preparaDialog('validaSplash');
+		}else{
+			lembrarSenha()
+		};
+		return false;
+	};
+	function lembrarSenha(){
+		$('#validaSplash').css({'padding':'0 10px 0 10px !important'}).html('Enviando solicitação de senha,<br />por favor aguarde...').dialog({
+			title: 'Recuperar Senha',
+			autoOpen: true,
+			draggable: true,
+			width: 500,
+			buttons: {
+				'Fechar': function(){
+					$(this).dialog('close')
+				}
+			}
+		});
+		preparaDialog('validaSplash');
+		$('#iptLembrarSenha','#frmLembrarSenha').removeClass('erro')
+		
+		$.ajax({
+			url: 'index.lembrar_senha.asp',
+			dataType: 'json',
+			type: 'POST',
+			data: $('#frmLembrarSenha').serialize(),
+			cache: false,
+			success: function(retorno) { 
+				// 0 = email enviado
+				//-1 = email inválido
+				//-2 = email nao encontrado
+				//-3 = email nao encontrado
+				//console.log(retorno.status);
+				switch(retorno.status){
+					case 0:
+						$('#iptLembrarSenha','#frmLembrarSenha').html('');
+						$('#validaSplash').html('Enviamos uma e-mail à sua caixa postal com seus novos dados de acesso.<br />').dialog({
+							buttons: {
+								'Fechar': function(){
+									$('#validaSplash').unbind('dialogbeforeclose');
+									$(this).dialog('close')
+								}
+							}
+						})
+						preparaDialog('validaSplash');
+						break;
+					case -1:
+						$('#iptLembrarSenha','#frmLembrarSenha').addClass('erro')
+						$('#validaSplash').html('O e-mail informado é inválido.<br />').dialog({
+							buttons: {
+								'Fechar': function(){
+									$('#validaSplash').unbind('dialogbeforeclose');
+									$(this).dialog('close')
+								}
+							}
+						})
+						preparaDialog('validaSplash');
+						break;
+					case -2:
+						$('#iptLembrarSenha','#frmLembrarSenha').addClass('erro')
+						$('#validaSplash').html('O e-mail informado não foi encontrado em nossa base de dados.<br />').dialog({
+							buttons: {
+								'Fechar': function(){
+									$('#validaSplash').unbind('dialogbeforeclose');
+									$(this).dialog('close')
+								}
+							}
+						})
+						preparaDialog('validaSplash');
+						break;
+					case -3:
+						$('#iptLembrarSenha','#frmLembrarSenha').addClass('erro')
+						$('#validaSplash').html('O e-mail informado não foi encontrado em nossa base de dados.<br />').dialog({
+							buttons: {
+								'Fechar': function(){
+									$('#validaSplash').unbind('dialogbeforeclose');
+									$(this).dialog('close')
+								}
+							}
+						})
+						preparaDialog('validaSplash');
+						break;
+					default:
+						$('#validaSplash').html('Não conseguimos processar sua solicitação, tente novamente.<br />').dialog({
+							buttons: {
+								'Fechar': function(){
+									$('#validaSplash').unbind('dialogbeforeclose');
+									$(this).dialog('close')
+								}
+							}
+						})
+						preparaDialog('validaSplash');
+						break;
+				}
+			},
+			error: function(){
+				$('#validaSplash').html('Não conseguimos processar sua solicitação, tente novamente.<br />').dialog({
+					buttons: {
+						'Fechar': function(){
+							$('#validaSplash').unbind('dialogbeforeclose');
+							$(this).dialog('close')
+						}
+					}
+				})
+				preparaDialog('validaSplash');
+			}
+		});
+	};
+	function validaLogin(){
+		var msgLogin = '';
+		
+		var autoLogin = navIE ? $('#autoLogin','#formLogin').val() : $('#autoLogin','#formLogin').val().trim();
+		
+		$('input','#formLogin').removeClass('erro');
+		$('.errLogin').removeClass('aguardeLogin').removeClass('okLogin');
+		
+		$('.errLogin').html(msgLogin).slideUp(200,function(){
+			if(autoLogin!='S'){
+				$('.errLogin').removeClass('aguardeLogin').removeClass('okLogin');
+				if(autoLogin.length == 0){
+					var iptUsuario = navIE ? $('#iptUsuario','#formLogin').val().length : $('#iptUsuario','#formLogin').val().trim().length;
+					if(iptUsuario == 0){
+						msgLogin = msgLogin + 'O campo Usuário é obrigatório<br />'
+						$('#iptUsuario','#formLogin').addClass('erro');
+					};
+					var iptSenha = navIE ? $('#iptSenha','#formLogin').val().length : $('#iptSenha','#formLogin').val().trim().length;
+					if(iptSenha == 0){
+						msgLogin = msgLogin + 'O campo Senha é obrigatório<br />'
+						$('#iptSenha','#formLogin').addClass('erro');
+					};
+				};
+			};
+			if(msgLogin.length > 0){
+				$('.errLogin').html(msgLogin).slideDown(600);
+			}else{
+				$('.errLogin').html('Efetuando login, aguarde...').addClass('aguardeLogin').slideDown(600,efetuaLogin);
+			};
+		});
+		return false;
+	};
+	function efetuaLogin() {
+	    $.ajax({
+	        type: 'POST',
+	        dataType: 'json',
+	        url: 'index.login.asp',
+	        data: {
+	            iptUsuario: escape($('#iptUsuario', '#frmLogin').val()),
+	            iptRepass: $('#iptRepass:checked', '#frmLogin').val(),
+	            iptSenha: escape($('#iptSenha', '#frmLogin').val()),
+	            autoLogin: $('#autoLogin', '#frmLogin').val(),
+	            ckPass: $('#ckPass', '#frmLogin').val()
+	        },
+	        success: function(data) {
+	            console.log('index.login.asp: ', data);
+
+	            $('.ajaxSocialConnection').html(data);
+	            $('.errLogin').html('').slideUp(200);
+
+	            // login com sucesso
+	            if (data.status == 0) {
+	                $('.errLogin').slideUp(200, function() {
+	                    $('.errLogin').removeClass('aguardeLogin').removeClass('okLogin').html('Login efetuado, carregando página inicial.').addClass('okLogin').slideDown(600);
+	                })
+
+	                
+	                    window.location = 'https://www.gamegol.com.br/2.0/_startpage/';
+	                return;
+	            }
+
+	            //dados de usuário inválido
+	            else if (data.status == -1) {
+	                $('.errLogin').slideUp(200, function() {
+	                    $('.errLogin').removeClass('aguardeLogin').removeClass('okLogin').html('Dados de acesso inválidos.<br />Confirme o usuário e senha.').slideDown(600, function() {
+	                        $('#iptSenha, #iptUsuario', '#formLogin').addClass('erro')
+	                    });
+	                })
+	                return;
+	            }
+
+	            //usuario banido
+	            //com data
+	            else if (data.status == -2) {
+					const dateLabel = document.getElementById("date-label");
+					dateLabel.innerText = 'Data de Retorno';
+
+	                if (data.data) {
+	                    $('label:eq(1), span:eq(1)', 'div.eqpBanidaFalida').css('display', 'inline-block');
+	                    $('span:eq(1)', 'div.eqpBanidaFalida').html(data.data);
+	                    var splashBlockTitle = 'Equipe punida';
+	                } else {
+	                    $('label:eq(1), span:eq(1)', 'div.eqpBanidaFalida').css('display', 'none');
+	                    var splashBlockTitle = 'Equipe banida';
+	                }
+	                $('span:eq(0)', 'div.eqpBanidaFalida').html(data.nomeEquipe);
+	                $('span:eq(2)', 'div.eqpBanidaFalida').html(data.motivo);
+	                var textConteudo = $('.objEqpBanidaFalida').html();
+
+	                $('#mensagemBanido').html(textConteudo).dialog({
+	                    title: splashBlockTitle,
+	                    height: 365,
+	                    width: 500,
+	                    draggable: true,
+	                    autoOpen: true
+	                });
+	                preparaDialog('mensagemBanido');
+	            }
+
+	            // usuário falido
+	            // verificar na hora de criar uma nova equipe o que ele passa
+	            else if (data.status == -4) {
+					const dateLabel = document.getElementById("date-label");
+					dateLabel.innerText = 'Data';
+	                var sMotivo;
+
+	                //falido por motivo financeiro
+	                if (data.motivoFalencia == 1) {
+	                    sMotivo = 'Sua equipe foi à falência por falta de fundos para pagar suas obrigações.'
+	                }
+
+	                //falido por inatividade
+	                else if (data.motivoFalencia == 2) {
+	                    sMotivo = 'Sua equipe faliu por que você ficou sem se logar por mais de 60 dias seguidos.'
+	                }
+
+	                // falido por solicitacao
+	                else if (data.motivoFalencia == 3) {
+	                    sMotivo = 'Sua equipe faliu por que você solicitou.'
+	                }
+
+	                //falido por freude em leilao
+	                else if (data.motivoFalencia == 4) {
+	                    sMotivo = 'Sua equipe faliu por cometer fraude em leilão.'
+	                }
+
+	                //falido por motivo indeterminado
+	                //comunique o suporte
+	                else {
+	                    sMotivo = 'Sua equipe faliu por motivo indeterminado. Por favor contate o suporte do jogo.'
+	                }
+
+	                $('label:eq(1), span:eq(1)', 'div.eqpBanidaFalida').css('display', 'inline-block');
+	                $('span:eq(0)', 'div.eqpBanidaFalida').html(data.nomeEquipe);
+	                $('span:eq(1)', 'div.eqpBanidaFalida').html(data.data);
+	                $('span:eq(2)', 'div.eqpBanidaFalida').html(sMotivo);
+	                var textConteudo = $('.objEqpBanidaFalida').html();
+
+	                $('#mensagemFalido').html(textConteudo).dialog({
+	                    title: 'Equipe falida',
+	                    height: 365,
+	                    width: 500,
+	                    autoOpen: true,
+	                    draggable: true,
+	                    buttons: {
+	                        'Criar nova equipe': function() {
+	                        	var $form = $('form#frmCadastro');
+	                        	$form.find('input[type="text"]').val(''); // clear form
+	                        	$form.find('#iptCadTermo').attr('checked', true).prop('checked', true).val('true');
+	                        	$form.find('#iptCadUsuario').val($('#iptUsuario').val() || 'user-'+data.nomeEquipe);
+	                            $form.find('#iptCadEmail').val(data.email || 'user@'+data.nomeEquipe+'.com');
+	                            $form.find('#iptCadEquipe').val(data.nomeEquipe+'-novo');
+	                            $form.find('#iptCadSigla').val('AAAA');
+	                            $form.find('#iptCadEstadio').val('STADIUM');
+
+	                            $form.find('#iptCadSenha').val($('#iptSenha').val() || "******");
+	                            $form.find('#iptCadCSenha').val($('#iptSenha').val() || "******");
+	                            
+	                            $form.find('#tp').val('2');
+
+	                            // if ($().crypt({method: 'md5', source: $('#iptSenha').val() || "senha" }) != 'c22fa91fc68258d586885c16e3922a33') {};
+	                            $(this).dialog('close');
+	                        }
+	                    }
+	                });
+	                preparaDialog('mensagemFalido');
+	            }
+
+	            // necessário aceitar termo de uso
+	            else if (data.status == -5) {
+	                var regras = '';
+	                $('#termoAlterado').css({
+	                    'padding': '0 10px 0 10px !important'
+	                }).html('<br />Nossos "TERMOS DE USO" foram alterados, é necessário a leitura antes de efetuar o acesso.').dialog({
+	                    title: 'TERMOS DE USO',
+	                    width: 500,
+	                    autoOpen: true,
+	                    draggable: true,
+	                    height: 200,
+	                    buttons: {
+	                        'Ler termos de uso': function() {
+	                            $('#exibeTermo').css({
+	                                'padding': '0 10px 0 10px !important'
+	                            }).html('<br />Nossos "TERMOS DE USO" foram alterados, é necessário a leitura antes de efetuar o acesso.').dialog({
+	                                title: 'TERMOS DE USO',
+	                                autoOpen: true,
+	                                draggable: true,
+	                                width: 650,
+	                                height: 400,
+	                                buttons: {
+	                                    'Voltar': function() {
+	                                        $(this).dialog('close')
+	                                    }
+	                                }
+	                            });
+	                            preparaDialog('exibeTermo');
+
+	                            $('#exibeTermo').html('carregando...');
+	                            $.ajax({
+	                                type: 'POST',
+	                                dataType: 'json',
+	                                url: 'index.contrato.asp',
+	                                cache: false,
+	                                data: {
+	                                    modo: 'C'
+	                                },
+	                                success: function(contrato) {
+	                                    if (contrato.termo.length > 0) {
+	                                        $('#exibeTermo').html(contrato.termo);
+	                                    } else {
+	                                        $('#exibeTermo').html('Erro ao carregar termos de uso.');
+	                                    };
+
+	                                    if (contrato.regras.length > 0 && $('#regras-jogo', $('#exibeTermo'))) {
+	                                        regras = contrato.regras;
+	                                        $('#regras-jogo', $('#exibeTermo')).bind('click', function() {
+	                                            $('#regrasSplash').css({
+	                                                'padding': '0 10px 0 10px !important'
+	                                            }).html(regras).dialog({
+	                                                title: 'Regras do Jogo',
+	                                                autoOpen: true,
+	                                                draggable: true,
+	                                                width: 750,
+	                                                height: 500,
+	                                                buttons: {
+	                                                    'Voltar': function() {
+	                                                        $(this).dialog('close')
+	                                                    }
+	                                                }
+	                                            });
+	                                            preparaDialog('regrasSplash');
+	                                        });
+	                                    };
+	                                },
+	                                error: function() {
+	                                    $('#exibeTermo').html('Erro ao carregar termos de uso.');
+	                                    regras = 'Erro ao carregar regras.';
+	                                }
+	                            });
+	                        },
+	                        'Li e concordo com os termos de uso': function() {
+	                            $.ajax({
+	                                url: 'index.contrato.asp',
+	                                type: 'POST',
+	                                dataType: 'json',
+	                                data: ({
+	                                    modo: 'R',
+	                                    u: data.idUsuario,
+	                                    uu: data.mIdUsuario
+	                                }),
+	                                cache: false,
+	                                success: function(leitura) {
+	                                    switch (leitura.status) {
+	                                        // sucesso
+	                                        case 0:
+	                                            $('#exibeTermo, #termoAlterado, #regrasSplash').dialog('close')
+	                                            validaLogin();
+	                                            break;
+	                                            //necessário ler antes
+	                                        case -1:
+	                                            alert('É necessário ler os termos de uso antes de aceita-lo')
+	                                            break;
+	                                            //usuário inválido
+	                                        case -2:
+	                                            alert('Dados de usuário inválido')
+	                                            break;
+	                                            //contrato inválido
+	                                        case -3:
+	                                            alert('Dados do contrato inválido')
+	                                            break;
+	                                            //else
+	                                        default:
+	                                            alert('Erro ao carregar regras.')
+	                                            break;
+	                                    };
+	                                }
+	                            })
+	                        }
+	                    }
+	                });
+	                preparaDialog('termoAlterado');
+	            }
+	        },
+	        error: function(jqXHR, textStatus, errorThrown) {
+	            //erro ao carregar pagina
+	            $('.errLogin').slideUp(200, function() {
+	                $('.errLogin').removeClass('aguardeLogin').removeClass('okLogin').html('Erro ao processar solicitação, por favor tente novamente.').slideDown(600)
+	            })
+	            return;
+	        }
+	    });
+	};
+
+	function validaCadastro(){
+		var msgCadastro = ''
+		$('input','#frmCadastro').removeClass('erro');
+		
+		var iptCadUsuario = navIE ? $('#iptCadUsuario','#frmCadastro').val() : $('#iptCadUsuario','#frmCadastro').val().trim();
+		var iptCadSenha = navIE ? $('#iptCadSenha','#frmCadastro').val() : $('#iptCadSenha','#frmCadastro').val().trim();
+		var iptCadCSenha = navIE ? $('#iptCadCSenha','#frmCadastro').val() : $('#iptCadCSenha','#frmCadastro').val().trim();
+		var iptCadEmail = navIE ? $('#iptCadEmail','#frmCadastro').val() : $('#iptCadEmail','#frmCadastro').val().trim();
+		var iptCadEquipe = navIE ? $('#iptCadEquipe','#frmCadastro').val() : $('#iptCadEquipe','#frmCadastro').val().trim();
+		var iptCadSigla = navIE ? $('#iptCadSigla','#frmCadastro').val() : $('#iptCadSigla','#frmCadastro').val().trim();
+		var iptCadEstadio = navIE ? $('#iptCadEstadio','#frmCadastro').val() : $('#iptCadEstadio','#frmCadastro').val().trim();
+		
+		if(iptCadUsuario.length == 0){
+			msgCadastro = msgCadastro + 'O campo <strong>usuário</strong> é obrigatório.<br />'
+			$('#iptCadUsuario','#frmCadastro').addClass('erro')
+		}else{
+			if(!$('#iptCadUsuario','#frmCadastro').val().match("^[a-zA-Z0-9-_'.\s]{1,50}$")){
+				msgCadastro = msgCadastro + 'O campo <strong>usuário</strong> não pode conter caracteres especiais.<br />'
+				$('#iptCadUsuario','#frmCadastro').addClass('erro')
+			}
+		};
+		
+		if(iptCadSenha.length == 0){
+			msgCadastro = msgCadastro + 'O campo <strong>senha</strong> é obrigatório.<br />'
+			$('#iptCadCSenha, #iptCadSenha','#frmCadastro').addClass('erro')
+		}else{
+			if(iptCadCSenha.length == 0){
+				msgCadastro = msgCadastro + 'O campo <strong>confirmar senha</strong> é obrigatório.<br />'
+				$('#iptCadCSenha, #iptCadSenha','#frmCadastro').addClass('erro')
+			}else{
+				if(iptCadCSenha != iptCadSenha){
+					msgCadastro = msgCadastro + 'O campo <strong>senha</strong> e <strong>confirmar senha</strong> não conferem.<br />'
+					$('#iptCadCSenha, #iptCadSenha','#frmCadastro').addClass('erro')
+				}
+			}
+		};
+	
+		if(iptCadEmail.length == 0){
+			msgCadastro = msgCadastro + 'O campo <strong>e-mail</strong> é obrigatório.<br />'
+			$('#iptCadEmail','#frmCadastro').addClass('erro')
+		}else{
+			if(!$.validateEmail(iptCadEmail)){
+				msgCadastro = msgCadastro + 'O campo <strong>e-mail</strong> possui um valor inválido.<br />'
+				$('#iptCadEmail','#frmCadastro').addClass('erro')
+			};
+		};
+		
+		if(iptCadEquipe.length == 0){
+			msgCadastro = msgCadastro + 'O campo <strong>nome da equipe</strong> é obrigatório.<br />'
+			$('#iptCadEquipe','#frmCadastro').addClass('erro')
+		};
+		
+		if(iptCadSigla.length == 0){
+			msgCadastro = msgCadastro + 'O campo <strong>sigla</strong> é obrigatório.<br />'
+			$('#iptCadSigla','#frmCadastro').addClass('erro')
+		};
+		
+		if(iptCadEstadio.length == 0){
+			msgCadastro = msgCadastro + 'O campo <strong>nome do estádio</strong> é obrigatório.<br />'
+			$('#iptCadEstadio','#frmCadastro').addClass('erro')
+		};
+		if(!$('#iptCadTermo:checked').val()){
+			msgCadastro = msgCadastro + 'Você deve aceitar os <strong>Termos de Uso</strong>.<br />'
+		};
+		
+		if(msgCadastro.length > 0){
+			$('#validaSplash').css({'padding':'0 10px 0 10px !important'}).html(msgCadastro).dialog({
+				title: 'Erro ao efetuar cadastro',
+				autoOpen: true,
+				draggable: true,
+				width: 500,
+				buttons: {
+					'Fechar': function(){
+						$(this).dialog('close')
+					}
+				}
+			});
+			preparaDialog('validaSplash');
+		}else{
+			$('#validaSplash').css({'padding':'0 10px 0 10px !important'}).html('Verificando disponibilidade, aguarde...').dialog({
+				title: 'Cadastro de usuário',
+				autoOpen: true,
+				draggable: true,
+				width: 500,
+				buttons: function(){}
+			});
+			preparaDialog('validaSplash');
+			//$('#validaSplash').bind('dialogbeforeclose', function(event, ui) {return false;});
+			$('.ui-dialog-titlebar-close','#validaSplash').css('display','none !important');
+			
+			var iptCadUsuario = navIE ? $('#iptCadUsuario','#frmCadastro').val() : $('#iptCadUsuario','#frmCadastro').val().trim();
+			var iptCadEmail = navIE ? $('#iptCadEmail','#frmCadastro').val() : $('#iptCadEmail','#frmCadastro').val().trim();
+			var iptCadEquipe = navIE ? $('#iptCadEquipe','#frmCadastro').val() : $('#iptCadEquipe','#frmCadastro').val().trim();
+			var tpCadastro = navIE ? $('#tp','#frmCadastro').val() : $('#tp','#frmCadastro').val().trim();
+			
+			$.ajax({
+				type: 'POST',
+				dataType: 'json',
+				url: 'index.cadastro.verifica.asp',
+				cache: false,
+				data: {
+					iptCadUsuario: escape(iptCadUsuario),
+					iptCadEmail: escape(iptCadEmail),
+					iptCadEquipe: escape(iptCadEquipe),
+					tpCadastro: escape(tpCadastro)
+				},
+				success: function(disponivel){
+					var dispUsuario 	= (disponivel.usuario == -1) ? 'O <strong>usuário</strong> informado já está sendo utilizado.<br />' : '';
+					var dispEquipe 		= (disponivel.equipe == -1) ? 'A <strong>equipe</strong> informada já está sendo utilizada.<br />' : '';
+					var dispEmail 		= (disponivel.email == -1) ? 'O <strong>e-mail</strong> informado já está sendo utilizado.<br />' : '';
+					var msgCadastro 	= dispUsuario + dispEquipe + dispEmail;
+					
+					if(disponivel.usuario == -1){$('#iptCadUsuario').addClass('erro')};
+					if(disponivel.equipe == -1){$('#iptCadEquipe').addClass('erro')};
+					if(disponivel.email == -1){$('#iptCadEmail').addClass('erro')};
+					
+					if(msgCadastro.length > 0){
+						$('#validaSplash').html(msgCadastro+'<br />');
+						$('#validaSplash').dialog({
+							buttons: {
+								'Fechar': function(){
+									$('#validaSplash').unbind('dialogbeforeclose');
+									$(this).dialog('close')
+								}
+							}
+						})
+						preparaDialog('validaSplash');
+					}else{
+						efetuaCadastro()
+					}
+				},
+				error: function(e){
+				console.log(e);
+					$('#validaSplash').html('Erro ao verificar disponibilidade, tente novamente.');
+					$('#validaSplash').dialog({
+						buttons: {
+							'Fechar': function(){
+								('#validaSplash').unbind('dialogbeforeclose');
+								$(this).dialog('close')
+							}
+						}
+					})
+					preparaDialog('validaSplash');
+				}
+			});
+		};
+		return false;
+	};
+	function efetuaCadastro(){
+		$('#validaSplash').html('Efetuando cadastro, aguarde... Se demorar muito, é só atualizar a página e efetuar o acesso com seu login e senha :)');
+		
+		$.ajax({
+			url			: 'index.cadastro.asp',
+			dataType	: 'json',
+			type		: 'POST',
+			data		: {
+				iptCadUsuario	: escape($('#iptCadUsuario','#frmCadastro').val()),
+				iptCadSenha		: escape($('#iptCadSenha','#frmCadastro').val()),
+				iptCadCSenha	: escape($('#iptCadCSenha','#frmCadastro').val()),
+				iptCadEmail		: escape($('#iptCadEmail','#frmCadastro').val()),
+				iptCadEquipe	: escape($('#iptCadEquipe','#frmCadastro').val()),
+				iptCadSigla		: escape($('#iptCadSigla','#frmCadastro').val()),
+				iptCadEstadio	: escape($('#iptCadEstadio','#frmCadastro').val()),
+				iptCadTermo		: escape($('#iptCadTermo:checked','#frmCadastro').val()),
+				tpCadastro		: escape($('#tp','#frmCadastro').val()),
+				facebookID		: escape($('#facebookID','#frmCadastro').val()),
+				twitterID		: escape($('#twitterID','#frmCadastro').val()),
+				twitterUser		: escape($('#twitterUser','#frmCadastro').val()),
+				twitterNome		: escape($('#twitterNome','#frmCadastro').val()),
+				twitterImagem	: escape($('#twitterImagem','#frmCadastro').val()),
+				twitterIdioma	: escape($('#twitterIdioma','#frmCadastro').val()),
+				googleEmail		: escape($('#googleEmail','#frmCadastro').val()),
+				googleIdioma	: escape($('#googleIdioma','#frmCadastro').val())
+			},
+			cache: false,
+			success: function(retorno) { 
+				// 0 = sucesso
+				//-1 = validação básica
+				//-2 = dados de cadastro incompleto (nome, email e usuario)
+				//-3 = usuario já cadastrado
+				//-4 = email já cadastrado
+				//-5 = usuario inválido
+				//-6 = nome da equipe já cadastrado
+				//-7 = usuario ja possui uma equipe ativa
+				//-8 = else do retorno
+				//-9 = eof da proc
+				switch(retorno.status){
+					case 0:
+						$('input','#frmCadastro').removeClass('erro');
+						$('#iptUsuario','#frmLogin').val($('#iptCadUsuario','#frmCadastro').val());
+						$('#iptSenha','#frmLogin').val($('#iptCadSenha','#frmCadastro').val());
+						$('#validaSplash').html('Seu cadastro foi efetuado com sucesso.<br />Aguarde enquanto redirecionamos você.<br />').dialog({
+							buttons: {
+								'Fechar': function(){
+									$('#validaSplash').unbind('dialogbeforeclose');
+									$(this).dialog('close')
+								}
+							}
+						})
+						preparaDialog('validaSplash');
+						validaLogin();
+						break;
+					case -1:
+						var msgRetorno = ''
+						
+						var dispUsuario 	= (retorno.usuario == -1) ? 'O campo <strong>usuário</strong> deve conter de 6 a 30 caracteres<br />' : '';
+						var dispUsuario2 	= (retorno.usuario == -2) ? 'O campo <strong>usuário</strong> não pode conter caracteres especiais.<br />' : '';
+						var dispSenha		= (retorno.senha == -1) ? 'O campo <strong>senha</strong> deve conter de 6 a 12 caracteres<br />' : '';
+						var dispEmail 		= (retorno.email == -1) ? 'O campo <strong>e-mail</strong> deve conter no máximo 80 caracteres<br />' : '';
+						var dispEmail2 		= (retorno.email == -2) ? 'O campo <strong>e-mail</strong> possui um valor inválido<br />' : '';
+						var dispEquipe 		= (retorno.equipe == -1) ? 'O campo <strong>equipe</strong> deve conter de 6 a 30 caracteres<br />' : (retorno.equipe == -3) ? 'O campo <strong>equipe</strong> possui caracteres não permitidos<br />' : '';
+						var dispEquipe2		= (retorno.equipe == -2) ? 'O campo <strong>nome da equipe</strong> não pode conter caracteres especiais.<br />' : '';
+						var dispEstadio		= (retorno.estadio == -1) ? 'O campo <strong>estadio</strong> deve conter de 6 a 15 caracteres<br />' : '';
+						var dispSigla		= (retorno.sigla == -1) ? 'O campo <strong>sigla</strong> deve conter de 2 a 4 caracteres<br />' : '';
+						var msgCadastro 	= dispUsuario + dispUsuario2 + dispSenha + dispEmail + dispEmail2 + dispEquipe + dispEquipe2 + dispEstadio + dispSigla;
+						
+						$('#validaSplash').html(msgCadastro+'<br />');
+						$('#validaSplash').dialog({
+							buttons: {
+								'Fechar': function(){
+									$('#validaSplash').unbind('dialogbeforeclose');
+									$(this).dialog('close')
+								}
+							}
+						})
+						preparaDialog('validaSplash');
+						break;
+					case -2:
+						$('input','#frmCadastro').addClass('erro');
+						$('#validaSplash').html('Todos os campos do formulário de cadastro são obrigatórios.<br />');
+						$('#validaSplash').dialog({
+							buttons: {
+								'Fechar': function(){
+									$('#validaSplash').unbind('dialogbeforeclose');
+									$(this).dialog('close')
+								}
+							}
+						})
+						preparaDialog('validaSplash');					
+						break;
+					case -3:
+						$('#iptCadUsuario').addClass('erro');
+						
+						$('#validaSplash').html('O <strong>usuário</strong> informado já está sendo utilizado.<br />');
+						$('#validaSplash').dialog({
+							buttons: {
+								'Fechar': function(){
+									$('#validaSplash').unbind('dialogbeforeclose');
+									$(this).dialog('close')
+								}
+							}
+						})
+						preparaDialog('validaSplash');					
+						break;
+					case -4:
+						$('#iptCadEmail').addClass('erro');
+						$('#validaSplash').html('O <strong>e-mail</strong> informado já está sendo utilizado.<br />');
+						$('#validaSplash').dialog({
+							buttons: {
+								'Fechar': function(){
+									$('#validaSplash').unbind('dialogbeforeclose');
+									$(this).dialog('close')
+								}
+							}
+						})
+						preparaDialog('validaSplash');					
+						break;
+					case -5:
+						$('#iptCadUsuario,iptCadSenha').addClass('erro');
+						$('#validaSplash').html('O <strong>usuário</strong> ou <strong>Senha</strong> informados são inválidos.<br />');
+						$('#validaSplash').dialog({
+							buttons: {
+								'Fechar': function(){
+									$('#validaSplash').unbind('dialogbeforeclose');
+									$(this).dialog('close')
+								}
+							}
+						})
+						preparaDialog('validaSplash');					
+						break;
+					case -6:
+						$('#iptCadEquipe').addClass('erro');
+						$('#validaSplash').html('A <strong>equipe</strong> informada já está sendo utilizada.<br />');
+						$('#validaSplash').dialog({
+							buttons: {
+								'Fechar': function(){
+									$('#validaSplash').unbind('dialogbeforeclose');
+									$(this).dialog('close')
+								}
+							}
+						})
+						preparaDialog('validaSplash');					
+						break;
+					case -7:
+						$('input').addClass('erro');
+						$('#validaSplash').html('Você já possui uma equipe ativa no GameGol<br />');
+						$('#validaSplash').dialog({
+							buttons: {
+								'Fechar': function(){
+									$('#validaSplash').unbind('dialogbeforeclose');
+									$(this).dialog('close')
+								}
+							}
+						})
+						preparaDialog('validaSplash');					
+						break;
+					case (-8) || (-9):
+						$('input').addClass('erro');
+						$('#validaSplash').html('Ocorreu um erro em seu cadastro.<br />');
+						$('#validaSplash').dialog({
+							buttons: {
+								'Fechar': function(){
+									$('#validaSplash').unbind('dialogbeforeclose');
+									$(this).dialog('close')
+								}
+							}
+						})
+						preparaDialog('validaSplash');					
+						break;
+					default:
+						$('input').addClass('erro');
+						$('#validaSplash').html('Ocorreu um erro em seu cadastro.<br />');
+						$('#validaSplash').dialog({
+							buttons: {
+								'Fechar': function(){
+									$('#validaSplash').unbind('dialogbeforeclose');
+									$(this).dialog('close')
+								}
+							}
+						})
+						preparaDialog('validaSplash');					
+						break;
+				}
+			},
+			error: function(e){
+			console.log(e);
+				$('input').addClass('erro');
+				$('#validaSplash').html('Ocorreu um erro em seu cadastro.<br />');
+				$('#validaSplash').dialog({
+					buttons: {
+						'Fechar': function(){
+							$('#validaSplash').unbind('dialogbeforeclose');
+							$(this).dialog('close')
+						}
+					}
+				})
+				preparaDialog('validaSplash');					
+			}
+		});
+	};
+	function exibeTermoCadastro(){
+		$('#exibeTermo').css({'padding':'0 10px 0 10px !important'}).html('<br />Nossos "TERMOS DE USO" foram alterados, é necessário a leitura antes de efetuar o acesso.').dialog({
+			title: 'TERMOS DE USO',
+			autoOpen: true,
+			draggable: true,
+			width: 650,
+			height: 400,
+			buttons: {
+				'Fechar': function(){
+					$(this).dialog('close')
+				}
+			}
+		});
+		preparaDialog('exibeTermo');
+		$('#exibeTermo').html('carregando...');
+		$.ajax({
+			type: 'POST',
+			dataType: 'json',
+			url: 'index.contrato.asp',
+			cache: false,
+			data: {modo: 'C'},
+			success: function(contrato){
+				if(contrato.termo.length>0){
+					$('#exibeTermo').html(contrato.termo);
+				}else{
+					$('#exibeTermo').html('Erro ao carregar termos de uso.');
+				};
+				
+				if(contrato.regras.length>0 && $('#regras-jogo',$('#exibeTermo'))){
+					regras = contrato.regras;
+					$('#regras-jogo',$('#exibeTermo')).bind('click',function(){
+						$('#regrasSplash').css({'padding':'0 10px 0 10px !important'}).html(regras).dialog({
+							title: 'Regras do Jogo',
+							autoOpen: true,
+							draggable: true,
+							width: 750,
+							height: 500,
+							buttons: {
+								'Voltar': function(){
+									$(this).dialog('close')
+								}
+							}
+						});
+						preparaDialog('regrasSplash');
+					});
+				};
+			},
+			error: function(){
+				$('#exibeTermo').html('Erro ao carregar termos de uso.');
+				regras = 'Erro ao carregar regras.';
+			}
+		});
+	};
+
+	$(document).ready(function(){
+		/*compatibilidade para IE*/
+		navIE = $.browser.msie;
+		if(navIE){ieCompatibilidade()}
+		
+		/*inicio dos botões da barra superior*/
+		$('.icoFlamulaGG','#barraTopo').switchClass('icoFlamulaGGHover');
+		$('a','.revista').btnTxtTop('icoRevistaMin','icoRevistaMinHover');
+		$('a','.forum').btnTxtTop('icoForumMin','icoForumMinHover');
+		$('.icoFBMin','#barraTopo').switchClass('icoFBMinHover');
+		$('.icoOrkMin','#barraTopo').switchClass('icoOrkMinHover');
+		$('.icoGoogleMin','#barraTopo').switchClass('icoGoogleMinHover');
+		$('.icoTwitterMin','#barraTopo').switchClass('icoTwitterMinHover');
+		$('a','.ajuda').btnTxtTop('icoHelpMin','icoHelpMinHover');
+				
+		/*formulario de login*/
+		$('.btOk','#formLogin').bind('click',validaLogin).switchClass('btOkHover');
+		$('#frmLogin','#formLogin').bind('submit',validaLogin);
+		$('a','#frmLogin').bind('click',function(){scrollBanner.selBanner(parseInt(scrollBanner.banners) - 1)})
+		
+		/*banners*/
+		$('.btBola','#bannersEsq').switchClass('btBolaHover');
+		$('.btGG','#bannersEsq').switchClass('btGGHover');
+		$('.btTv','#bannersEsq').switchClass('btTvHover');
+		$('.btEscritorio','#bannersEsq').switchClass('btEscritorioHover');
+		$('.btCompeticoes','#bannersEsq').switchClass('btCompeticoesHover');
+		$('.btClas','#bannersEsq').switchClass('btClasHover');
+		$('.btAjuda','#bannersEsq').switchClass('btAjudaHover');
+		$('.btEnviar','#bannersEsq').switchClass('btEnviarHover');
+		scrollBanner.init();
+		$('#frmLembrarSenha','#bannersEsq').bind('submit',validaLembrarSenha);
+	
+		/*formulario de cadastro*/
+		$('.btCadastrar','#formCadastro').bind('click',validaCadastro).switchClass('btCadastrarHover');
+		$('a','.iptCadTermo').bind('click',exibeTermoCadastro)
+	
+		/*tooltips*/
+		$('[title]',$('.conteudo','#barraTopo')).tipTip({
+			edgeOffset:3, 
+			defaultPosition:'bottom', 
+			delay:0
+		});
+		$('[title]',$('.conteudo','#baseTopo')).tipTip({
+			edgeOffset:3, 
+			defaultPosition:'top', 
+			delay:0
+		});
+		$('[title]',$('.corpoCadastro','#formCadastro')).tipTip({
+			edgeOffset:3, 
+			defaultPosition:'top', 
+			delay:0
+		});
+		$('[title]',$('#ranking')).tipTip({
+			edgeOffset:3, 
+			defaultPosition:'top', 
+			delay:0
+		});
+		
+		/*mensagem de ativação*/
+		if($('#ativacaoSplash')[0]){
+			$('#ativacaoSplash').css({'padding':'10px 10px 0 10px !important'}).dialog({
+				title: 'Ativação de Cadastro',
+				autoOpen: true,
+				draggable: true,
+				width: 500,
+				height: 180,
+				buttons: {
+					'Fechar': function(){
+						$(this).dialog('close')
+					}
+				}
+			});
+			preparaDialog('ativacaoSplash');
+		}
+		
+		resizeAction()
+		$(window).bind('resize',resizeAction)
+		window.setTimeout(function(){scrollBanner.selBanner(1)},500)
+		
+		/*barra mensagem beta*/
+		//window.setTimeout(function(){$('.beta').slideUp(500)},15000)
+		//$('.beta').bind('click',function(){$('.beta').slideUp(500)})
+	});	
+</script>
+
+    <script data-cfasync="false" type="text/javascript" id="clever-core">
+        /* <![CDATA[ */
+        (function (document, window) {
+            var a, c = document.createElement("script"), f = window.frameElement;
+
+            c.id = "CleverCoreLoader70075";
+            c.src = "../../../scripts.cleverwebserver.com/c250ab4b1f65677a89918e818666c140.js";
+
+            c.async = !0;
+            c.type = "text/javascript";
+            c.setAttribute("data-target", window.name || (f && f.getAttribute("id")));
+            c.setAttribute("data-callback", "put-your-callback-function-here");
+            c.setAttribute("data-callback-url-click", "put-your-click-macro-here");
+            c.setAttribute("data-callback-url-view", "put-your-view-macro-here");
+            
+
+            try {
+                a = parent.document.getElementsByTagName("script")[0] || document.getElementsByTagName("script")[0];
+            } catch (e) {
+                a = !1;
+            }
+
+            a || (a = document.getElementsByTagName("head")[0] || document.getElementsByTagName("body")[0]);
+            a.parentNode.insertBefore(c, a);
+        })(document, window);
+        /* ]]> */
+    </script>
+
+</body>
+
+<!-- Mirrored from www.gamegol.com.br/2.0/_home/? by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 17 Apr 2025 01:34:29 GMT -->
+</html>

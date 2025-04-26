@@ -3,15 +3,41 @@
 
 <html>
     <head>
-        <title>Fontes e cores</title>
+        <title>Estilos de textos</title>
         <meta charset="utf-8">
 
         <style type="text/CSS">
         
         
+            body {
+                font-size: 70px;
+                font-family: 'Times New Roman', Times, serif;
+            }
+
+            .negrito {
+                /* normal, bold 100 até 900*/
+                font-weight: 900;
+            }
+
+            .italico {
+                font-style: italic;
+            }
+
+            .formatacao {
+              /*  text-decoration: overline;
+                text-decoration: underline;
+                text-decoration: line-through;*/
+                text-decoration: line-through;
+            }
 
 
-        
+            .texto {
+                font: bold 70px;
+                text-decoration: underline overline line-through;
+            }
+
+
+
         </style>
 
 
@@ -22,12 +48,11 @@
 
     <body>
     
-<div>
-<p >Conteúdo 1</p>
-<p >Conteúdo 2</p>
-</div>
 
-
+<p class="negrito">Texto Negrito</p>
+<p class="italico">Conteúdo 2</p>
+<p class="formatacao">Conteúdo 3</p>
+<p class="texto">Conteúdo 4</p>
     </body>
 
 

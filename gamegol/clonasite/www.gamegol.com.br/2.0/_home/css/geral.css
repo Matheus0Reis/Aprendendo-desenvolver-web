@@ -1,0 +1,434 @@
+@charset "UTF-8";
+/* CSS Document */
+html, body {
+	height: 100%;
+}
+body{
+	margin:0px;
+	padding:0px;
+	background-color:#97b0b7;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+form{
+	display:inline;
+}
+.cb{
+	clear:both;
+	width:0px;
+	height:0px;
+	overflow:hidden;
+	display:block;
+}
+.beta{
+	background-color:#f4f5d7;
+	padding:10px;
+	color:#9fa500;
+	font-weight:bold;
+	border-bottom:1px solid #9fa500;
+	text-align:center;
+	display:block;
+}
+.beta a{
+	color:#00F;
+	text-decoration:none;
+}
+.beta a:hover{
+	color:#666;
+	text-decoration:underline;
+}
+* html #containerConteudo{
+	height: 100%;
+}
+#containerConteudo{
+	min-height: 100%;
+	position: relative;
+}
+#containerConteudo .errLogin{
+	display:none;
+	text-align:center;
+	background-color:#ffd3d4;
+	color:#f83442;
+	font-weight:bold;
+	padding:5px;
+	border-bottom:1px solid #f33235;
+}
+#containerConteudo .aguardeLogin{
+	background-color:#f4f5d7;
+	color:#9fa500;
+	border-bottom:1px solid #9fa500;
+}
+#containerConteudo .okLogin{
+	background-color:#d3ffeb;
+	color:#106d42;
+	border-bottom:1px solid #106d42;
+}
+#containerConteudo #topo{}
+#containerConteudo #topo #barraTopo .conteudo{
+	width:978px;
+	height:34px;
+	margin:0px auto;
+}
+#containerConteudo #topo #barraTopo .conteudo ul,
+#containerConteudo #topo #barraTopo .conteudo li{
+	list-style:none;
+	float:left;
+	margin:0px;
+	padding:0px;
+}
+#containerConteudo #topo #barraTopo .conteudo a,
+#containerConteudo #topo #barraTopo .conteudo span{
+	color:#b6bcb0;
+	text-decoration:none;
+}
+#containerConteudo #topo #barraTopo .conteudo .logo{
+	margin:5px 0 0 40px;
+}
+#containerConteudo #topo #barraTopo .conteudo .revista,
+#containerConteudo #topo #barraTopo .conteudo .forum{
+	margin:6px 0 0 35px;
+}
+#containerConteudo #topo #barraTopo .conteudo .facebook{
+	margin-left:420px!important;
+}
+#containerConteudo #topo #barraTopo .conteudo .facebook,
+#containerConteudo #topo #barraTopo .conteudo .orkut,
+#containerConteudo #topo #barraTopo .conteudo .google,
+#containerConteudo #topo #barraTopo .conteudo .twitter,
+#containerConteudo #topo #barraTopo .conteudo .ajuda{
+	margin:6px 0 0 15px;
+}
+#containerConteudo #topo #baseTopo .conteudo{
+	width:978px;
+	height:55px;
+	margin:0px auto;
+}
+#containerConteudo #topo #baseTopo .conteudo #conectese{
+	float:left;
+	margin:-5px 0 0 10px;
+	color:#b9beb3;
+}
+#containerConteudo #topo #baseTopo .conteudo #conectese .areaTxt{
+	text-align:center;
+}
+#containerConteudo #topo #baseTopo .conteudo #formLogin{}
+#containerConteudo #topo #baseTopo .conteudo #formLogin label,
+#containerConteudo #topo #baseTopo .conteudo #formLogin a,
+#containerConteudo #topo #baseTopo .conteudo #formLogin button{
+	cursor:pointer;
+	color:#b9beb3;
+	text-decoration:none;
+}	
+#containerConteudo #topo #baseTopo .conteudo #formLogin label,
+#containerConteudo #topo #baseTopo .conteudo #formLogin a,
+#containerConteudo #topo #baseTopo .conteudo #formLogin button,
+#containerConteudo #topo #baseTopo .conteudo #formLogin input{
+	float:left;
+}
+#containerConteudo #topo #baseTopo .conteudo #formLogin form div{
+	width:300px;
+	height:55px;
+	display:block;
+	overflow:hidden;
+	float:left;
+}
+#containerConteudo #topo #baseTopo .conteudo #formLogin .labelUser,
+#containerConteudo #topo #baseTopo .conteudo #formLogin .labelRepass,
+#containerConteudo #topo #baseTopo .conteudo #formLogin .labelSenha{
+	display:block;
+	width:50px;
+	height:15px;
+	margin:10px 0 0 10px;
+	padding-right:5px;
+	text-align:right;
+}
+#containerConteudo #topo #baseTopo .conteudo #formLogin .labelRepass,
+#containerConteudo #topo #baseTopo .conteudo #formLogin #iptRepass{
+	height:14px;
+	margin:5px 0 0 0;
+	overflow:hidden;
+}
+#containerConteudo #topo #baseTopo .conteudo #formLogin .labelRepass{
+	text-align:left;
+	padding-left:5px;
+}
+#containerConteudo #topo #baseTopo .conteudo #formLogin #iptRepass{
+	margin-left:80px;
+}
+#containerConteudo #topo #baseTopo .conteudo #formLogin a{
+	margin:3px 0 0 80px;
+}
+#containerConteudo #topo #baseTopo .conteudo #formLogin button{
+	border:none;
+	background-color:transparent;
+	margin-top:3px;
+}
+#containerConteudo #corpo{
+	width:978px;
+	margin:5px auto;
+	padding-bottom:148px;
+}
+#containerConteudo #corpo #bannersEsq{
+	width:605px;
+	height:479px;
+	float:left;
+	overflow:hidden;
+}
+#containerConteudo #corpo #bannersEsq .botoes{
+	width:605px;
+	height:40px;
+	overflow:hidden;
+	position:absolute;
+	z-index:2;
+	margin-left:20px;
+}
+#containerConteudo #corpo #bannersEsq .botoes ul,
+#containerConteudo #corpo #bannersEsq .botoes li,
+#containerConteudo #corpo #bannersEsq .banners ul,
+#containerConteudo #corpo #bannersEsq .banners li{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+#containerConteudo #corpo #bannersEsq .botoes li{
+	float:left;
+	cursor:pointer;
+	margin-left:5px;
+}
+#containerConteudo #corpo #bannersEsq .banners{
+	width:605px;
+	height:473px;
+	overflow:hidden;
+	position:absolute;
+	z-index:1;
+	margin-top:7px;
+}
+#containerConteudo #corpo #bannersEsq .banners li{
+	width:605px;
+	height:473px;
+	float:left;
+}
+#containerConteudo #corpo #bannersEsq .banners li .helpBanner1{
+	position:absolute;
+	display:block !important;
+	width:260px !important;
+	height:30px !important;
+	margin:-45px 0 0 20px !important;
+}
+#containerConteudo #corpo #bannersEsq .banners li .helpBanner2{
+	position:absolute;
+	display:block !important;
+	width:292px !important;
+	height:76px !important;
+	margin:-423px 0 0 287px !important;
+	/*background-color:#000 !important;
+	filter:Alpha(Opacity=0);
+	opacity: 1;*/
+}
+#containerConteudo #corpo #bannersEsq .banners li #frmLembrarSenha{
+	position:absolute;
+	width:285px;
+	height:80px;
+	display:block;
+	margin:-132px 0 0 290px;
+}
+#containerConteudo #corpo #bannersEsq .banners li #frmLembrarSenha .btEnviar{
+	margin:5px 0 0 90px;
+	padding:0px;
+	border:none;
+	background-color:transparent;
+	cursor:pointer;
+}
+#containerConteudo #corpo #formCadastro{
+	width:365px;
+	display:block;
+	float:left;
+	margin:7px 0 0 8px;
+}
+#containerConteudo #corpo #formCadastro .conteudo .titCadastro{
+	margin:15px auto;
+	display:block;
+}
+#containerConteudo #corpo #formCadastro .conteudo .corpoCadastro{
+	margin:20px 0 0 0;
+	display:block;
+}
+#containerConteudo #corpo #formCadastro .conteudo .corpoCadastro label{
+	width:125px;
+	display:block;
+	float:left;
+	font-weight:bold;
+	text-align:right;
+	margin:16px 5px 0 0;
+	cursor:pointer;
+}
+
+#containerConteudo #corpo #formCadastro .conteudo .corpoCadastro label.iptCadTermo{
+	width:300px;
+	display:block;
+	float:left;
+	text-align:left;
+	margin:14px 5px 10px 0;
+	cursor:pointer;
+	font-weight:100!important;
+}
+#containerConteudo #corpo #formCadastro .conteudo .corpoCadastro label.iptCadTermo a{
+	font-weight:bold;
+	text-decoration:none;
+	color:#7c7c7c;
+}
+#containerConteudo #corpo #formCadastro .conteudo .corpoCadastro input#iptCadTermo{
+	border:none;
+	background:none;
+	width:15px;
+	height:15px;
+	padding:0px;
+	margin:15px 5px 10px 22px;
+	float:left;
+}
+#containerConteudo #corpo #formCadastro button{
+	border:none;
+	margin:0px;
+	padding:0px;
+	cursor:pointer;
+	background-color:transparent;
+}
+#containerConteudo #corpo #ranking{}
+#containerConteudo #corpo #ranking .titBarraRanking .txtTitRanking{
+	margin:13px 0 0 60px;
+}
+#containerConteudo #corpo #ranking .colocacoes{
+	margin:3px auto;
+}
+#containerConteudo #corpo #ranking .colocacoes ul,
+#containerConteudo #corpo #ranking .colocacoes ul li{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+#containerConteudo #corpo #ranking .colocacoes ul li{
+	float:left;
+	width:194px;
+	background-color:#efefef;
+	margin-right:2px;
+}
+#containerConteudo #corpo #ranking .colocacoes ul li.RKjuniores{
+	margin-right:0px!important;
+}
+#containerConteudo #corpo #ranking .colocacoes ul li ul li.Rkeqp{
+	padding:10px 2px 10px 2px;
+	width:185px;
+	margin:3px 3px 3px 3px!important;
+}
+#containerConteudo #corpo #ranking .colocacoes ul li ul li.Rkeqp span.pos,
+#containerConteudo #corpo #ranking .colocacoes ul li ul li.Rkeqp span.sep,
+#containerConteudo #corpo #ranking .colocacoes ul li ul li.Rkeqp span.nome{
+	display:block;
+	float:left;
+	cursor:default;
+	overflow:hidden;
+}
+#containerConteudo #corpo #ranking .colocacoes ul li ul li.Rkeqp span.pos{
+	font-size:20px;
+	width:25px;
+	text-align:center;
+}
+#containerConteudo #corpo #ranking .colocacoes ul li ul li.Rkeqp span.sep{
+	font-size:20px;
+	width:10px;
+	text-align:left;
+}
+#containerConteudo #corpo #ranking .colocacoes ul li ul li.Rkeqp span.nome{
+	width:148px;
+	height:16px;
+	margin:4px 0 0 0;
+	text-transform:capitalize;
+}
+#containerConteudo #corpo #ranking .colocacoes ul li.RKmensal ul li.Rkeqp{
+	color:#2d79ba;
+	background-color:#dde7f0;
+	border-bottom:1px solid #b8d1e8;
+}
+#containerConteudo #corpo #ranking .colocacoes ul li.RKmensal ul li.Rkeqp a{color:#2d79ba;text-decoration:none;}
+
+#containerConteudo #corpo #ranking .colocacoes ul li.RKanual ul li.Rkeqp{
+	color:#bf4100;
+	background-color:#f1ebe7;
+	border-bottom:1px solid #dcccc4;
+}
+#containerConteudo #corpo #ranking .colocacoes ul li.RKanual ul li.Rkeqp a{color:#bf4100;text-decoration:none;}
+
+#containerConteudo #corpo #ranking .colocacoes ul li.RKgeral ul li.Rkeqp{
+	color:#ad7500;
+	background-color:#efece6;
+	border-bottom:1px solid #d7cfbf;
+}
+#containerConteudo #corpo #ranking .colocacoes ul li.RKgeral ul li.Rkeqp a{color:#ad7500;text-decoration:none;}
+
+#containerConteudo #corpo #ranking .colocacoes ul li.RKclas ul li.Rkeqp{
+	color:#ac2d21;
+	background-color:#f2eae9;
+	border-bottom:1px solid #dfcac8;
+}
+#containerConteudo #corpo #ranking .colocacoes ul li.RKclas ul li.Rkeqp a{color:#ac2d21;text-decoration:none;}
+
+#containerConteudo #corpo #ranking .colocacoes ul li.RKjuniores ul li.Rkeqp{
+	color:#306700;
+	background-color:#eaefe5;
+	border-bottom:1px solid #cad6bf;
+}
+#containerConteudo #corpo #ranking .colocacoes ul li.RKjuniores ul li.Rkeqp a{color:#306700;text-decoration:none;}
+
+#containerConteudo #rodape{
+	width:100%;
+	height:118px;
+	overflow:hidden;
+	display:block;
+	position:absolute;
+	bottom:0;
+}
+#containerConteudo #rodape a{
+	position:absolute;
+	margin-top:3px;
+}
+
+.objEqpBanidaFalida,#mensagemBanido,#mensagemFalido,#termoAlterado,#exibeTermo,#regrasSplash,#validaSplash,#ativacaoSplash{
+	display:none;
+	padding:0 15px 15px 15px;
+}
+.eqpBanidaFalida{}
+.eqpBanidaFalida label{
+	color:#189abc;
+	float:left;
+	text-align:right;
+	width:120px;
+	margin:0 10px 10px 0;
+	padding-top:5px;
+	font-weight:bold;
+	vertical-align:top;
+	clear:both;
+}
+.eqpBanidaFalida span{
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	float:left;
+	color:#000;
+	background-color:#d6dfe4;
+	padding:5px;
+	width:320px;
+	display:inline-block;
+	margin-bottom:10px;
+}
+.eqpBanidaFalida span.equipe,
+.eqpBanidaFalida span.data{
+	height:17px;
+	overflow:hidden;
+	line-height:20px;
+}
+.eqpBanidaFalida span.motivo{
+	overflow:auto;
+	min-height:150px;
+}

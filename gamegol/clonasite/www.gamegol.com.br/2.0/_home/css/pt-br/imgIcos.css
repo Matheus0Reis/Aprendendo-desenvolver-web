@@ -1,0 +1,569 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*****************************************************************************************
+*  INICIO DOS BOTÕES E ICONES
+*****************************************************************************************/
+.btBola,.btBolaHover,.btGG,.btGGHover,.btTv,.btTvHover,.btEscritorio,.btEscritorioHover,
+.btCompeticoes,.btCompeticoesHover,.btCompeticoes,.btCompeticoesHover,.btClas,.btClasHover,
+.btAjuda,.btAjudaHover,.icoFlamulaGG,.icoFlamulaGGHover,.icoRevistaMin,.icoRevistaMinHover,
+.icoForumMin,.icoForumMinHover,.icoFBMin,.icoFBMinHover,.icoOrkMin,.icoOrkMinHover,
+.icoGoogleMin,.icoGoogleMinHover,.icoTwitterMin,.icoTwitterMinHover,.icoHelpMin,.icoHelpMinHover,
+.btCadastrar,.btCadastrarHover,.btFacebook,.btFacebookHover,.btTwitter,.btTwitterHover,
+.btGoogle,.btGoogleHover,.titRnkMensal,.baseRnkMensal,.titRnkAnual,.baseRnkAnual,
+.titRnkGeral,.baseRnkGeral,.titRnkClas,.baseRnkClas,.titRnkJuniores,.baseRnkJuniores,
+.logoRodape,.btOk,.btOkHover,.titCadastro,.txtTitRanking,.btEnviar,.btEnviarHover{
+	background-color:transparent;
+	background-attachment:inherit;
+	background-image:url(../../imgs/pt-br/padrao/icos/icos_top_jts.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+}
+.btBola{
+	width:34px;
+	height:40px;
+	background-position: -10px -13px;
+}
+.btBolaHover{
+	width:34px;
+	height:40px;
+	background-position: -10px -53px;
+}
+.btGG{
+	width:74px;
+	height:40px;
+	background-position: -50px -13px;
+}
+.btGGHover{
+	width:74px;
+	height:40px;
+	background-position: -50px -53px;
+}
+.btTv{
+	width:64px;
+	height:40px;
+	background-position: -130px -13px;
+}
+.btTvHover{
+	width:64px;
+	height:40px;
+	background-position: -130px -53px;
+}
+.btEscritorio{
+	width:104px;
+	height:40px;
+	background-position: -200px -13px;
+}
+.btEscritorioHover{
+	width:104px;
+	height:40px;
+	background-position: -200px -53px;
+}
+.btCompeticoes{
+	width:114px;
+	height:40px;
+	background-position: -310px -13px;
+}
+.btCompeticoesHover{
+	width:114px;
+	height:40px;
+	background-position: -310px -53px;
+}
+.btClas{
+	width:64px;
+	height:40px;
+	background-position: -430px -13px;
+}
+.btClasHover{
+	width:64px;
+	height:40px;
+	background-position: -430px -53px;
+}
+.btAjuda{
+	width:64px;
+	height:40px;
+	background-position: -500px -13px;
+}
+.btAjudaHover{
+	width:64px;
+	height:40px;
+	background-position: -500px -53px;
+}
+.icoFlamulaGG{
+	width:62px;
+	height:23px;
+	background-position: -593px -25px;
+}
+.icoFlamulaGGHover{
+	width:62px;
+	height:23px;
+	background-position: -593px -48px;
+}
+.icoRevistaMin{
+	width:21px;
+	height:20px;
+	background-position:-676px -27px;
+}
+.icoRevistaMinHover{
+	width:21px;
+	height:20px;
+	background-position: -676px -47px;	
+}
+.icoForumMin{
+	width:21px;
+	height:20px;
+	background-position:-716px -27px ;
+}
+.icoForumMinHover{
+	width:21px;
+	height:20px;
+	background-position: -716px -47px;
+}
+.icoFBMin{
+	width:21px;
+	height:20px;
+	background-position:-756px -27px ;
+}
+.icoFBMinHover{
+	width:21px;
+	height:20px;
+	background-position: -756px -47px;
+}
+.icoOrkMin{
+	width:21px;
+	height:20px;
+	background-position:-795px -27px ;
+}
+.icoOrkMinHover{
+	width:21px;
+	height:20px;
+	background-position: -795px -47px;
+}
+.icoGoogleMin{
+	width:21px;
+	height:20px;
+	background-position:-835px -27px ;
+}
+.icoGoogleMinHover{
+	width:21px;
+	height:20px;
+	background-position: -835px -47px;
+}
+.icoTwitterMin{
+	width:21px;
+	height:20px;
+	background-position:-875px -27px ;
+}
+.icoTwitterMinHover{
+	width:21px;
+	height:20px;
+	background-position: -875px -47px;
+}
+.icoHelpMin{
+	width:21px;
+	height:20px;
+	background-position:-915px -27px ;
+}
+.icoHelpMinHover{
+	width:21px;
+	height:20px;
+	background-position: -915px -47px;
+}
+.btCadastrar{
+	width:364px;
+	height:79px;
+	background-position:-11px -108px ;
+}
+.btCadastrarHover{
+	width:364px;
+	height:79px;
+	background-position: -376px -108px;
+}
+.btFacebook{
+	width:44px;
+	height:39px;
+	background-position:-793px -107px ;
+}
+.btFacebookHover{
+	width:44px;
+	height:39px;
+	background-position: -793px -147px;
+}
+.btTwitter{
+	width:44px;
+	height:39px;
+	background-position:-853px -107px ;
+}
+.btTwitterHover{
+	width:44px;
+	height:39px;
+	background-position: -853px -147px;
+}
+.btGoogle{
+	width:44px;
+	height:39px;
+	background-position:-915px -107px ;
+}
+.btGoogleHover{
+	width:44px;
+	height:39px;
+	background-position: -915px -147px;
+}
+.titRnkMensal{
+	width:196px;
+	height:30px;
+	background-position:-4px -197px ;
+}
+.baseRnkMensal{
+	width:196px;
+	height:53px;
+	background-position: -4px -228px;
+}
+.titRnkAnual{
+	width:196px;
+	height:30px;
+	background-position:-200px -197px ;
+}
+.baseRnkAnual{
+	width:196px;
+	height:53px;
+	background-position: -200px -228px;
+}
+.titRnkGeral{
+	width:196px;
+	height:30px;
+	background-position:-396px -197px ;
+}
+.baseRnkGeral{
+	width:196px;
+	height:53px;
+	background-position: -396px -228px;
+}
+.titRnkClas{
+	width:196px;
+	height:30px;
+	background-position:-592px -197px ;
+}
+.baseRnkClas{
+	width:196px;
+	height:53px;
+	background-position: -592px -228px;
+}
+.titRnkJuniores{
+	width:196px;
+	height:30px;
+	background-position:-788px -197px ;
+}
+.baseRnkJuniores{
+	width:196px;
+	height:53px;
+	background-position: -788px -228px;
+}
+.logoRodape{
+	width:136px;
+	height:79px;
+	background-position:-22px -288px ;
+}
+.btOk{
+	width:126px;
+	height:31px;
+	background-position:-192px -291px ;
+}
+.btOkHover{
+	width:126px;
+	height:31px;
+	background-position:-192px -322px ;
+}
+.titCadastro{
+	width:326px;
+	height:41px;
+	background-position:-337px -303px ;
+}
+.txtTitRanking{
+	width:60px;
+	height:15px;
+	background-position:-689px -314px;
+}
+.btEnviar{
+	width:106px;
+	height:30px;
+	background-position:-781px -291px;
+}
+.btEnviarHover{
+	width:106px;
+	height:30px;
+	background-position:-781px -321px;
+}
+/*****************************************************************************************
+*  FINAL DOS BOTÕES E ICONES
+*****************************************************************************************/
+
+
+/*****************************************************************************************
+*  INICIO DOS SETORES QUE EXIGEM IMAGEM
+*****************************************************************************************/
+#containerConteudo #topo #barraTopo{
+	background-color:#0e1506;
+	background-attachment:inherit;
+	background-image:url(../../imgs/pt-br/padrao/bg/bgBarraTopo.jpg);
+	background-position:left top;
+	background-repeat:repeat-x;
+	height:34px;
+	overflow:hidden;
+	background-color:#999;
+}
+#containerConteudo #topo #meioTopo{
+	height:85px;
+	display:block;
+	background-color:#3a7324;
+	background-attachment:inherit;
+	background-image:url(../../imgs/pt-br/padrao/bg/background_topo.jpg);
+	background-position:center bottom;
+	background-repeat:no-repeat;
+}
+#containerConteudo #topo #meioTopo a{
+	width:186px;
+	height:100px;
+	display:block;
+	background-color:transparent;
+	background-attachment:inherit;
+	background-image:url(../../imgs/pt-br/padrao/icos/logo_gamegol.png);
+	background-position:center top;
+	background-repeat:no-repeat;
+	margin-top:-30px;
+	position:absolute;
+}
+#containerConteudo #topo #baseTopo{
+	height:55px;
+	display:block;
+	background-color:#162701;
+	background-attachment:inherit;
+	background-image:url(../../imgs/pt-br/padrao/bg/bar_menu_inf.jpg);
+	background-position:left top;
+	background-repeat:repeat-x;
+}
+#containerConteudo #topo #baseTopo .conteudo #formLogin #iptUsuario,
+#containerConteudo #topo #baseTopo .conteudo #formLogin #iptSenha{
+	border:1px solid #9ccc00;
+	background-color:transparent;
+	background-attachment:inherit;
+	background-image:url(../../imgs/pt-br/padrao/bg/background_form.png);
+	background-position:center top;
+	background-repeat:repeat-x;
+	width:203px;
+	height:29px;
+	margin-top:3px;
+	padding:0 5px 0 5px;
+	
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+	border-radius: 8px;
+}
+#containerConteudo #topo #baseTopo .conteudo #formLogin #iptUsuario.erro,
+#containerConteudo #topo #baseTopo .conteudo #formLogin #iptSenha.erro,
+#containerConteudo #corpo #formCadastro .conteudo .corpoCadastro input.erro,
+#containerConteudo #corpo #bannersEsq .banners #frmLembrarSenha input.erro{
+	background-color:#ffd3d4!important;
+	background-attachment:inherit!important;
+	background-image:url(../../imgs/pt-br/padrao/bg/background_form_erro.png)!important;
+	background-position:center top!important;
+	background-repeat:repeat-x!important;
+
+}
+#containerConteudo #corpo #formCadastro .conteudo{
+	background-color:#FFF;
+	background-attachment:inherit;
+	background-image:url(../../imgs/pt-br/padrao/bg/back_top_cadastro.png);
+	background-position:left top;
+	background-repeat:repeat-x;
+	display:block;
+	color:#7e7e7e;
+	width:364px;
+	overflow:hidden;
+}
+#containerConteudo #corpo #bannersEsq .banners li #frmLembrarSenha #iptLembrarSenha{
+	border:1px solid #9ccc00;
+	background-color:transparent;
+	background-attachment:inherit;
+	background-image:url(../../imgs/pt-br/padrao/bg/background_form.png);
+	background-position:center top;
+	background-repeat:repeat-x;
+	vertical-align:middle;
+	width:203px;
+	height:29px;
+	padding:0 5px 0 5px;
+	margin:7px 0 0 35px;
+	float:left;
+	
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+	border-radius: 8px;
+}
+#containerConteudo #corpo #formCadastro .conteudo .corpoCadastro input{
+	border:1px solid #9ccc00;
+	background-color:transparent;
+	background-attachment:inherit;
+	background-image:url(../../imgs/pt-br/padrao/bg/background_form.png);
+	background-position:center top;
+	background-repeat:repeat-x;
+	vertical-align:middle;
+	width:203px;
+	height:29px;
+	padding:0 5px 0 5px;
+	margin:8px 0 0 0;
+	float:left;
+	
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+	border-radius: 8px;
+}
+#containerConteudo #corpo #ranking .titBarraRanking{
+	margin:10px auto 0px auto;
+	background-color:#388407;
+	background-attachment:inherit;
+	background-image:url(../../imgs/pt-br/padrao/bg/bg_tit_ranking.jpg);
+	background-position:left top;
+	background-repeat:repeat-x;
+	height:40px;
+	display:block;
+	
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	-ms-border-radius: 12px;
+	-o-border-radius: 12px;
+	border-radius: 12px;
+}
+#containerConteudo #rodape .barraSuperior{
+	display:block;
+	height:55px;
+	background-color:#0e272e;
+	background-attachment:inherit;
+	background-image:url(../../imgs/pt-br/padrao/bg/bar_rod_inf.jpg);
+	background-repeat:repeat-x;
+	background-position:left top;
+}
+#containerConteudo #rodape .barraInferior{
+	display:block;
+	height:193px;
+	background-color:#4b646b;
+	background-attachment:inherit;
+	background-image:url(../../imgs/pt-br/padrao/bg/rodape_background.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+}
+.btGeral{
+	display:inline-block;
+	background-color:#177aa6;
+	background-attachment:inherit;
+	background-image:url(../../imgs/pt-br/padrao/bg/botoes.jpg);
+	background-position:center top;
+	background-repeat:repeat-x;
+	height:20px;
+	color:#FFF;
+	font-weight:bold;
+	padding:2px 7px 3px 7px;
+	overflow:hidden;
+	text-align:center;
+	border:none;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	cursor:pointer;
+}
+.btGeralHover{
+	display:inline-block;
+	background-color:#2eb0d2;
+	background-attachment:inherit;
+	background-image:url(../../imgs/pt-br/padrao/bg/botoes.jpg);
+	background-position:center bottom;
+	background-repeat:repeat-x;
+	height:20px;
+	color:#FFF;
+	font-weight:bold;
+	padding:2px 7px 3px 7px;
+	overflow:hidden;
+	text-align:center;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	border:none;
+	cursor:pointer;
+}
+
+/*****************************************************************************************
+*  FINAL DOS SETORES QUE EXIGEM IMAGEM
+*****************************************************************************************/
+
+
+
+
+
+/*
+<span class="btBola"></span>
+<span class="btBolaHover"></span>
+<span class="btGG"></span>
+<span class="btGGHover"></span>
+<span class="btTv"></span>
+<span class="btTvHover"></span>
+<span class="btEscritorio"></span>
+<span class="btEscritorioHover"></span>
+<span class="btCompeticoes"></span>
+<span class="btCompeticoesHover"></span>
+<span class="btClas"></span>
+<span class="btClasHover"></span>
+<span class="btAjuda"></span>
+<span class="btAjudaHover"></span>
+<span class="icoFlamulaGG"></span>
+<span class="icoFlamulaGGHover"></span>
+<span class="icoRevistaMin"></span>
+<span class="icoRevistaMinHover"></span>
+<span class="icoForumMin"></span>
+<span class="icoForumMinHover"></span>    
+<span class="icoFBMin"></span>
+<span class="icoFBMinHover"></span>    
+<span class="icoOrkMin"></span>
+<span class="icoOrkMinHover"></span>    
+<span class="icoGoogleMin"></span>
+<span class="icoGoogleMinHover"></span>
+<span class="icoTwitterMin"></span>
+<span class="icoTwitterMinHover"></span>
+<span class="icoHelpMin"></span>
+<span class="icoHelpMinHover"></span>
+<span class="btCadastrar"></span>
+<span class="btCadastrarHover"></span>
+<span class="btFacebook"></span>
+<span class="btFacebookHover"></span>
+<span class="btTwitter"></span>
+<span class="btTwitterHover"></span>
+<span class="btGoogle"></span>
+<span class="btGoogleHover"></span>
+<span class="titRnkMensal"></span>
+<span class="baseRnkMensal"></span>
+<span class="titRnkAnual"></span>
+<span class="baseRnkAnual"></span>
+<span class="titRnkGeral"></span>
+<span class="baseRnkGeral"></span>
+<span class="titRnkClas"></span>
+<span class="baseRnkClas"></span>
+<span class="titRnkJuniores"></span>
+<span class="baseRnkJuniores"></span>
+<span class="logoRodape"></span>
+<span class="btOk"></span>
+<span class="btOkHover"></span>
+<span class="titCadastro"></span>
+<span class="txtTitRanking"></span>
+<span class="btEnviar"></span>
+<span class="btEnviarHover"></span>
+<span class="btGeral"></span>
+<span class="btGeralHover"></span>
+*/
