@@ -1,0 +1,339 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 27 Apr 2025 12:58:45 at https://www.tribalwars.com.br/ moikano:matheusreis123@https://br134.tribalwars.com.br/game.php?screen=overview&intro +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qYC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "pt_BR, en, *" -Y https://www.tribalwars.com.br/ moikano:matheusreis123@https://br134.tribalwars.com.br/game.php?screen=overview&intro -O1 "C:\Users\pc i3\Desktop\Aprendendo desenvolver web\TW\TW" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+12:58:45	Warning: 	Cache: damaged cache, trying to repair
+12:58:45	Warning: 	Cache: 0 bytes successfully recovered in 0 entries
+12:58:45	Warning: 	Cache: error trying to open the cache
+12:59:36	Warning: 	Link https://www.tribalwars.com.br/ not scanned (follow robots meta tag)
+12:59:58	Warning: 	Note: due to https://dsbr.innogamescdn.com remote robots.txt rules, links beginning with these path will be forbidden: /admintool/, /sid_wrong.php, /page/session-expired (see in the options to disable this)
+12:59:59	Error: 	"Not Found" (404) at link https://www.tribalwars.com.br/https://dsbr.innogamescdn.com/asset/487b3c71/graphic/start/favicon/apple-touch-icon-144x144.webp (from https://www.tribalwars.com.br/)
+13:00:59	Warning: 	Found for https://www.tribalwars.net/
+13:00:59	Warning: 	File has moved from https://www.tribalwars.net/ to /en-dk/
+13:01:53	Warning: 	Link https://www.die-staemme.de/ not scanned (follow robots meta tag)
+13:01:56	Warning: 	Link https://www.staemme.ch/ not scanned (follow robots meta tag)
+13:01:58	Warning: 	Link https://www.tribalwars.nl/ not scanned (follow robots meta tag)
+13:02:01	Warning: 	Link https://www.plemiona.pl/ not scanned (follow robots meta tag)
+13:02:02	Warning: 	Temporary Redirect for https://www.tribalwars.se/robots.txt
+13:02:02	Warning: 	File has moved from https://www.tribalwars.se/robots.txt to https://www.tribalwars.net/sv-se
+13:02:02	Warning: 	Temporary Redirect for https://www.tribalwars.se/
+13:02:02	Warning: 	File has moved from https://www.tribalwars.se/ to https://www.tribalwars.net/sv-se
+13:02:05	Warning: 	Link https://www.tribalwars.com.pt/ not scanned (follow robots meta tag)
+13:02:08	Warning: 	Link https://www.divokekmeny.cz/ not scanned (follow robots meta tag)
+13:02:10	Warning: 	Link https://www.triburile.ro/ not scanned (follow robots meta tag)
+13:02:12	Warning: 	Found for https://www.voynaplemyon.com/
+13:02:12	Warning: 	File has moved from https://www.voynaplemyon.com/ to /ru-ru/
+13:02:15	Warning: 	Link https://www.fyletikesmaxes.gr/ not scanned (follow robots meta tag)
+13:02:17	Warning: 	Temporary Redirect for https://no.tribalwars.com/robots.txt
+13:02:17	Warning: 	File has moved from https://no.tribalwars.com/robots.txt to https://www.tribalwars.net/nb-no/
+13:02:17	Warning: 	Temporary Redirect for https://no.tribalwars.com/
+13:02:17	Warning: 	File has moved from https://no.tribalwars.com/ to https://www.tribalwars.net/nb-no/
+13:02:19	Warning: 	Link https://www.divoke-kmene.sk/ not scanned (follow robots meta tag)
+13:02:21	Warning: 	Link https://www.klanhaboru.hu/ not scanned (follow robots meta tag)
+13:02:23	Warning: 	Temporary Redirect for https://www.tribalwars.dk/robots.txt
+13:02:23	Warning: 	File has moved from https://www.tribalwars.dk/robots.txt to https://www.tribalwars.net/da-dk/
+13:02:23	Warning: 	Temporary Redirect for https://www.tribalwars.dk/
+13:02:23	Warning: 	File has moved from https://www.tribalwars.dk/ to https://www.tribalwars.net/da-dk/
+13:02:25	Warning: 	Link https://www.tribals.it/ not scanned (follow robots meta tag)
+13:02:28	Warning: 	Link https://www.klanlar.org/ not scanned (follow robots meta tag)
+13:02:30	Warning: 	Link https://www.guerretribale.fr/ not scanned (follow robots meta tag)
+13:02:33	Warning: 	Link https://www.guerrastribales.es/ not scanned (follow robots meta tag)
+13:02:35	Warning: 	Link https://www.tribalwars.ae/ not scanned (follow robots meta tag)
+13:02:40	Warning: 	Link https://www.tribalwars.co.uk/ not scanned (follow robots meta tag)
+13:02:42	Warning: 	Temporary Redirect for https://www.vojnaplemen.si/robots.txt
+13:02:42	Warning: 	File has moved from https://www.vojnaplemen.si/robots.txt to https://www.tribalwars.net/sl-si
+13:02:42	Warning: 	Temporary Redirect for https://www.vojnaplemen.si/
+13:02:42	Warning: 	File has moved from https://www.vojnaplemen.si/ to https://www.tribalwars.net/sl-si
+13:02:44	Warning: 	Temporary Redirect for https://www.plemena.com/robots.txt
+13:02:44	Warning: 	File has moved from https://www.plemena.com/robots.txt to https://www.tribalwars.net/hr-hr
+13:02:44	Warning: 	Temporary Redirect for https://www.plemena.com/
+13:02:44	Warning: 	File has moved from https://www.plemena.com/ to https://www.tribalwars.net/hr-hr
+13:02:46	Warning: 	Temporary Redirect for https://www.tribalwars.asia/robots.txt
+13:02:46	Warning: 	File has moved from https://www.tribalwars.asia/robots.txt to https://www.tribalwars.net/th-th
+13:02:46	Warning: 	Temporary Redirect for https://www.tribalwars.asia/
+13:02:46	Warning: 	File has moved from https://www.tribalwars.asia/ to https://www.tribalwars.net/th-th
+13:02:48	Warning: 	Link https://www.tribalwars.us/ not scanned (follow robots meta tag)
+13:02:49	Warning: 	Temporary Redirect for https://ua.tribalwars.net/robots.txt
+13:02:49	Warning: 	File has moved from https://ua.tribalwars.net/robots.txt to https://www.voynaplemyon.com/uk-ua/
+13:02:49	Warning: 	Temporary Redirect for https://ua.tribalwars.net//
+13:02:49	Warning: 	File has moved from https://ua.tribalwars.net// to https://www.voynaplemyon.com/uk-ua/
+13:02:53	Warning: 	Link https://www.tribalwars.net/en-dk/ not scanned (follow robots meta tag)
+13:02:55	Error: 	"Not Found" (404) at link https://www.die-staemme.de/https://dsde.innogamescdn.com/asset/487b3c71/graphic/start/favicon/apple-touch-icon-144x144.webp (from https://www.die-staemme.de/)
+13:03:00	Error: 	"Not Found" (404) at link https://www.staemme.ch/https://dsch.innogamescdn.com/asset/487b3c71/graphic/start/favicon/apple-touch-icon-144x144.webp (from https://www.staemme.ch/)
+13:03:06	Error: 	"Not Found" (404) at link https://www.tribalwars.nl/https://dsnl.innogamescdn.com/asset/487b3c71/graphic/start/favicon/apple-touch-icon-144x144.webp (from https://www.tribalwars.nl/)
+13:03:09	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 1803): https://dsnl.innogamescdn.com/asset/487b3c71/graphic/start2/screenshots/thumb-bg.gif
+13:03:11	Error: 	"Not Found" (404) at link https://www.plemiona.pl/https://dspl.innogamescdn.com/asset/487b3c71/graphic/start/favicon/apple-touch-icon-144x144.webp (from https://www.plemiona.pl/)
+13:03:52	Warning: 	Link https://www.tribalwars.net/sv-se not scanned (follow robots meta tag)
+13:03:53	Error: 	"Not Found" (404) at link https://www.tribalwars.com.pt/https://dspt.innogamescdn.com/asset/487b3c71/graphic/start/favicon/apple-touch-icon-144x144.webp (from https://www.tribalwars.com.pt/)
+13:03:53	Error: 	"Not Found" (404) at link https://www.divokekmeny.cz/https://dscs.innogamescdn.com/asset/487b3c71/graphic/start/favicon/apple-touch-icon-144x144.webp (from https://www.divokekmeny.cz/)
+13:03:54	Error: 	"Not Found" (404) at link https://www.triburile.ro/https://dsro.innogamescdn.com/asset/487b3c71/graphic/start/favicon/apple-touch-icon-144x144.webp (from https://www.triburile.ro/)
+13:03:57	Warning: 	Link https://www.voynaplemyon.com/ru-ru/ not scanned (follow robots meta tag)
+13:03:59	Error: 	"Not Found" (404) at link https://www.fyletikesmaxes.gr/https://dsgr.innogamescdn.com/asset/487b3c71/graphic/start/favicon/apple-touch-icon-144x144.webp (from https://www.fyletikesmaxes.gr/)
+13:04:04	Warning: 	Link https://www.tribalwars.net/nb-no/ not scanned (follow robots meta tag)
+13:04:08	Error: 	"Not Found" (404) at link https://www.divoke-kmene.sk/https://dssk.innogamescdn.com/asset/487b3c71/graphic/start/favicon/apple-touch-icon-144x144.webp (from https://www.divoke-kmene.sk/)
+13:04:11	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 1803): https://dssk.innogamescdn.com/asset/487b3c71/graphic/start2/screenshots/thumb-bg.gif
+13:04:15	Error: 	"Not Found" (404) at link https://www.klanhaboru.hu/https://dshu.innogamescdn.com/asset/487b3c71/graphic/start/favicon/apple-touch-icon-144x144.webp (from https://www.klanhaboru.hu/)
+13:04:45	Warning: 	Link https://www.tribalwars.net/da-dk/ not scanned (follow robots meta tag)
+13:04:47	Error: 	"Not Found" (404) at link https://www.tribals.it/https://dsit.innogamescdn.com/asset/487b3c71/graphic/start/favicon/apple-touch-icon-144x144.webp (from https://www.tribals.it/)
+13:04:52	Error: 	"Not Found" (404) at link https://www.klanlar.org/https://dstr.innogamescdn.com/asset/487b3c71/graphic/start/favicon/apple-touch-icon-144x144.webp (from https://www.klanlar.org/)
+13:04:58	Error: 	"Not Found" (404) at link https://www.guerretribale.fr/https://dsfr.innogamescdn.com/asset/487b3c71/graphic/start/favicon/apple-touch-icon-144x144.webp (from https://www.guerretribale.fr/)
+13:05:03	Error: 	"Not Found" (404) at link https://www.guerrastribales.es/https://dses.innogamescdn.com/asset/487b3c71/graphic/start/favicon/apple-touch-icon-144x144.webp (from https://www.guerrastribales.es/)
+13:05:31	Error: 	"Not Found" (404) at link https://www.tribalwars.ae/https://dsae.innogamescdn.com/asset/487b3c71/graphic/start/favicon/apple-touch-icon-144x144.webp (from https://www.tribalwars.ae/)
+13:05:33	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 1803): https://dsae.innogamescdn.com/asset/487b3c71/graphic/start2/screenshots/thumb-bg.gif
+13:05:35	Error: 	"Not Found" (404) at link https://www.tribalwars.co.uk/https://dsuk.innogamescdn.com/asset/487b3c71/graphic/start/favicon/apple-touch-icon-144x144.webp (from https://www.tribalwars.co.uk/)
+13:05:37	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 1803): https://dsuk.innogamescdn.com/asset/487b3c71/graphic/start2/screenshots/thumb-bg.gif
+13:06:22	Warning: 	Link https://www.tribalwars.net/sl-si not scanned (follow robots meta tag)
+13:06:58	Warning: 	Link https://www.tribalwars.net/hr-hr not scanned (follow robots meta tag)
+13:07:36	Warning: 	Link https://www.tribalwars.net/th-th not scanned (follow robots meta tag)
+13:07:36	Error: 	"Not Found" (404) at link https://www.tribalwars.us/https://dsus.innogamescdn.com/asset/487b3c71/graphic/start/favicon/apple-touch-icon-144x144.webp (from https://www.tribalwars.us/)
+13:07:37	Warning: 	Link https://www.voynaplemyon.com/uk-ua/ not scanned (follow robots meta tag)
+13:07:41	Error: 	"Not Found" (404) at link https://www.tribalwars.net/https://dsen.innogamescdn.com/asset/487b3c71/graphic/start/favicon/apple-touch-icon-144x144.webp (from https://www.tribalwars.net/en-dk/)
+13:07:44	Error: 	"Not Found" (404) at link https://www.die-staemme.de/en-dk/ (from https://www.tribalwars.net/en-dk/)
+13:07:44	Error: 	"Not Found" (404) at link https://www.staemme.ch/en-dk/ (from https://www.tribalwars.net/en-dk/)
+13:07:47	Error: 	"Not Found" (404) at link https://www.tribalwars.nl/en-dk/ (from https://www.tribalwars.net/en-dk/)
+13:07:49	Error: 	"Not Found" (404) at link https://www.plemiona.pl/en-dk/ (from https://www.tribalwars.net/en-dk/)
+13:07:51	Warning: 	Temporary Redirect for https://www.tribalwars.se/en-dk/
+13:07:51	Warning: 	File has moved from https://www.tribalwars.se/en-dk/ to https://www.tribalwars.net/sv-se
+13:07:55	Error: 	"Not Found" (404) at link https://www.tribalwars.com.br/en-dk/ (from https://www.tribalwars.net/en-dk/)
+13:07:58	Error: 	"Not Found" (404) at link https://www.tribalwars.com.pt/en-dk/ (from https://www.tribalwars.net/en-dk/)
+13:08:08	Error: 	"Not Found" (404) at link https://www.divokekmeny.cz/en-dk/ (from https://www.tribalwars.net/en-dk/)
+13:08:09	Error: 	"Not Found" (404) at link https://www.triburile.ro/en-dk/ (from https://www.tribalwars.net/en-dk/)
+13:08:11	Warning: 	Link https://www.voynaplemyon.com/en-dk/ not scanned (follow robots meta tag)
+13:08:14	Error: 	"Not Found" (404) at link https://www.fyletikesmaxes.gr/en-dk/ (from https://www.tribalwars.net/en-dk/)
+13:08:16	Warning: 	Temporary Redirect for https://no.tribalwars.com/en-dk/
+13:08:16	Warning: 	File has moved from https://no.tribalwars.com/en-dk/ to https://www.tribalwars.net/nb-no/
+13:08:18	Error: 	"Not Found" (404) at link https://www.divoke-kmene.sk/en-dk/ (from https://www.tribalwars.net/en-dk/)
+13:08:19	Error: 	"Not Found" (404) at link https://www.klanhaboru.hu/en-dk/ (from https://www.tribalwars.net/en-dk/)
+13:08:26	Warning: 	Temporary Redirect for https://www.tribalwars.dk/en-dk/
+13:08:26	Warning: 	File has moved from https://www.tribalwars.dk/en-dk/ to https://www.tribalwars.net/da-dk/
+13:08:49	Error: 	"Not Found" (404) at link https://www.tribals.it/en-dk/ (from https://www.tribalwars.net/en-dk/)
+13:08:50	Error: 	"Not Found" (404) at link https://www.klanlar.org/en-dk/ (from https://www.tribalwars.net/en-dk/)
+13:08:51	Error: 	"Not Found" (404) at link https://www.guerretribale.fr/en-dk/ (from https://www.tribalwars.net/en-dk/)
+13:08:52	Error: 	"Not Found" (404) at link https://www.guerrastribales.es/en-dk/ (from https://www.tribalwars.net/en-dk/)
+13:08:54	Error: 	"Not Found" (404) at link https://www.tribalwars.ae/en-dk/ (from https://www.tribalwars.net/en-dk/)
+13:08:54	Error: 	"Not Found" (404) at link https://www.tribalwars.co.uk/en-dk/ (from https://www.tribalwars.net/en-dk/)
+13:08:55	Warning: 	Temporary Redirect for https://www.vojnaplemen.si/en-dk/
+13:08:55	Warning: 	File has moved from https://www.vojnaplemen.si/en-dk/ to https://www.tribalwars.net/sl-si
+13:08:55	Warning: 	Temporary Redirect for https://www.plemena.com/en-dk/
+13:08:55	Warning: 	File has moved from https://www.plemena.com/en-dk/ to https://www.tribalwars.net/hr-hr
+13:08:55	Warning: 	Temporary Redirect for https://www.tribalwars.asia/en-dk/
+13:08:55	Warning: 	File has moved from https://www.tribalwars.asia/en-dk/ to https://www.tribalwars.net/th-th
+13:08:55	Error: 	"Not Found" (404) at link https://www.tribalwars.us/en-dk/ (from https://www.tribalwars.net/en-dk/)
+13:08:56	Warning: 	Temporary Redirect for https://ua.tribalwars.net//en-dk/
+13:08:56	Warning: 	File has moved from https://ua.tribalwars.net//en-dk/ to https://www.voynaplemyon.com/uk-ua/
+13:08:59	Error: 	"Not Found" (404) at link https://www.die-staemme.de/sv-se (from https://www.tribalwars.net/sv-se)
+13:09:01	Error: 	"Not Found" (404) at link https://www.staemme.ch/sv-se (from https://www.tribalwars.net/sv-se)
+13:09:02	Error: 	"Not Found" (404) at link https://www.tribalwars.nl/sv-se (from https://www.tribalwars.net/sv-se)
+13:09:03	Error: 	"Not Found" (404) at link https://www.plemiona.pl/sv-se (from https://www.tribalwars.net/sv-se)
+13:09:04	Error: 	"Not Found" (404) at link https://www.tribalwars.com.br/sv-se (from https://www.tribalwars.net/sv-se)
+13:09:05	Error: 	"Not Found" (404) at link https://www.tribalwars.com.pt/sv-se (from https://www.tribalwars.net/sv-se)
+13:09:06	Error: 	"Not Found" (404) at link https://www.divokekmeny.cz/sv-se (from https://www.tribalwars.net/sv-se)
+13:09:06	Error: 	"Not Found" (404) at link https://www.triburile.ro/sv-se (from https://www.tribalwars.net/sv-se)
+13:09:06	Warning: 	Link https://www.voynaplemyon.com/sv-se not scanned (follow robots meta tag)
+13:09:07	Error: 	"Not Found" (404) at link https://www.fyletikesmaxes.gr/sv-se (from https://www.tribalwars.net/sv-se)
+13:09:07	Error: 	"Not Found" (404) at link https://www.divoke-kmene.sk/sv-se (from https://www.tribalwars.net/sv-se)
+13:09:07	Error: 	"Not Found" (404) at link https://www.klanhaboru.hu/sv-se (from https://www.tribalwars.net/sv-se)
+13:09:07	Error: 	"Not Found" (404) at link https://www.tribals.it/sv-se (from https://www.tribalwars.net/sv-se)
+13:09:07	Error: 	"Not Found" (404) at link https://www.klanlar.org/sv-se (from https://www.tribalwars.net/sv-se)
+13:09:08	Error: 	"Not Found" (404) at link https://www.guerretribale.fr/sv-se (from https://www.tribalwars.net/sv-se)
+13:09:08	Error: 	"Not Found" (404) at link https://www.guerrastribales.es/sv-se (from https://www.tribalwars.net/sv-se)
+13:09:08	Error: 	"Not Found" (404) at link https://www.tribalwars.ae/sv-se (from https://www.tribalwars.net/sv-se)
+13:09:08	Error: 	"Not Found" (404) at link https://www.tribalwars.co.uk/sv-se (from https://www.tribalwars.net/sv-se)
+13:09:08	Error: 	"Not Found" (404) at link https://www.tribalwars.us/sv-se (from https://www.tribalwars.net/sv-se)
+13:09:08	Error: 	"Not Found" (404) at link https://www.voynaplemyon.com/https://dsru.innogamescdn.com/asset/487b3c71/graphic/start/favicon/apple-touch-icon-144x144.webp (from https://www.voynaplemyon.com/ru-ru/)
+13:09:09	Warning: 	Link https://www.tribalwars.net/ru-ru/ not scanned (follow robots meta tag)
+13:09:09	Error: 	"Not Found" (404) at link https://www.die-staemme.de/ru-ru/ (from https://www.voynaplemyon.com/ru-ru/)
+13:09:09	Error: 	"Not Found" (404) at link https://www.staemme.ch/ru-ru/ (from https://www.voynaplemyon.com/ru-ru/)
+13:09:09	Error: 	"Not Found" (404) at link https://www.tribalwars.nl/ru-ru/ (from https://www.voynaplemyon.com/ru-ru/)
+13:09:09	Error: 	"Not Found" (404) at link https://www.plemiona.pl/ru-ru/ (from https://www.voynaplemyon.com/ru-ru/)
+13:09:09	Warning: 	Temporary Redirect for https://www.tribalwars.se/ru-ru/
+13:09:09	Warning: 	File has moved from https://www.tribalwars.se/ru-ru/ to https://www.tribalwars.net/sv-se
+13:09:10	Error: 	"Not Found" (404) at link https://www.tribalwars.com.br/ru-ru/ (from https://www.voynaplemyon.com/ru-ru/)
+13:09:10	Error: 	"Not Found" (404) at link https://www.tribalwars.com.pt/ru-ru/ (from https://www.voynaplemyon.com/ru-ru/)
+13:09:10	Error: 	"Not Found" (404) at link https://www.divokekmeny.cz/ru-ru/ (from https://www.voynaplemyon.com/ru-ru/)
+13:09:10	Error: 	"Not Found" (404) at link https://www.triburile.ro/ru-ru/ (from https://www.voynaplemyon.com/ru-ru/)
+13:09:10	Error: 	"Not Found" (404) at link https://www.fyletikesmaxes.gr/ru-ru/ (from https://www.voynaplemyon.com/ru-ru/)
+13:09:10	Warning: 	Temporary Redirect for https://no.tribalwars.com/ru-ru/
+13:09:10	Warning: 	File has moved from https://no.tribalwars.com/ru-ru/ to https://www.tribalwars.net/nb-no/
+13:09:10	Error: 	"Not Found" (404) at link https://www.divoke-kmene.sk/ru-ru/ (from https://www.voynaplemyon.com/ru-ru/)
+13:09:11	Error: 	"Not Found" (404) at link https://www.klanhaboru.hu/ru-ru/ (from https://www.voynaplemyon.com/ru-ru/)
+13:09:11	Warning: 	Temporary Redirect for https://www.tribalwars.dk/ru-ru/
+13:09:11	Warning: 	File has moved from https://www.tribalwars.dk/ru-ru/ to https://www.tribalwars.net/da-dk/
+13:09:11	Error: 	"Not Found" (404) at link https://www.tribals.it/ru-ru/ (from https://www.voynaplemyon.com/ru-ru/)
+13:09:11	Error: 	"Not Found" (404) at link https://www.klanlar.org/ru-ru/ (from https://www.voynaplemyon.com/ru-ru/)
+13:09:11	Error: 	"Not Found" (404) at link https://www.guerretribale.fr/ru-ru/ (from https://www.voynaplemyon.com/ru-ru/)
+13:09:12	Error: 	"Not Found" (404) at link https://www.guerrastribales.es/ru-ru/ (from https://www.voynaplemyon.com/ru-ru/)
+13:09:12	Error: 	"Not Found" (404) at link https://www.tribalwars.ae/ru-ru/ (from https://www.voynaplemyon.com/ru-ru/)
+13:09:12	Error: 	"Not Found" (404) at link https://www.tribalwars.co.uk/ru-ru/ (from https://www.voynaplemyon.com/ru-ru/)
+13:09:12	Warning: 	Temporary Redirect for https://www.vojnaplemen.si/ru-ru/
+13:09:12	Warning: 	File has moved from https://www.vojnaplemen.si/ru-ru/ to https://www.tribalwars.net/sl-si
+13:09:12	Warning: 	Temporary Redirect for https://www.plemena.com/ru-ru/
+13:09:12	Warning: 	File has moved from https://www.plemena.com/ru-ru/ to https://www.tribalwars.net/hr-hr
+13:09:12	Warning: 	Temporary Redirect for https://www.tribalwars.asia/ru-ru/
+13:09:12	Warning: 	File has moved from https://www.tribalwars.asia/ru-ru/ to https://www.tribalwars.net/th-th
+13:09:12	Error: 	"Not Found" (404) at link https://www.tribalwars.us/ru-ru/ (from https://www.voynaplemyon.com/ru-ru/)
+13:09:12	Warning: 	Temporary Redirect for https://ua.tribalwars.net//ru-ru/
+13:09:12	Warning: 	File has moved from https://ua.tribalwars.net//ru-ru/ to https://www.voynaplemyon.com/uk-ua/
+13:09:13	Error: 	"Not Found" (404) at link https://www.die-staemme.de/nb-no/ (from https://www.tribalwars.net/nb-no/)
+13:09:13	Error: 	"Not Found" (404) at link https://www.staemme.ch/nb-no/ (from https://www.tribalwars.net/nb-no/)
+13:09:13	Error: 	"Not Found" (404) at link https://www.tribalwars.nl/nb-no/ (from https://www.tribalwars.net/nb-no/)
+13:09:13	Error: 	"Not Found" (404) at link https://www.plemiona.pl/nb-no/ (from https://www.tribalwars.net/nb-no/)
+13:09:13	Warning: 	Temporary Redirect for https://www.tribalwars.se/nb-no/
+13:09:13	Warning: 	File has moved from https://www.tribalwars.se/nb-no/ to https://www.tribalwars.net/sv-se
+13:09:13	Error: 	"Not Found" (404) at link https://www.tribalwars.com.br/nb-no/ (from https://www.tribalwars.net/nb-no/)
+13:09:13	Error: 	"Not Found" (404) at link https://www.tribalwars.com.pt/nb-no/ (from https://www.tribalwars.net/nb-no/)
+13:09:13	Error: 	"Not Found" (404) at link https://www.divokekmeny.cz/nb-no/ (from https://www.tribalwars.net/nb-no/)
+13:09:13	Error: 	"Not Found" (404) at link https://www.triburile.ro/nb-no/ (from https://www.tribalwars.net/nb-no/)
+13:09:13	Warning: 	Link https://www.voynaplemyon.com/nb-no/ not scanned (follow robots meta tag)
+13:09:13	Error: 	"Not Found" (404) at link https://www.fyletikesmaxes.gr/nb-no/ (from https://www.tribalwars.net/nb-no/)
+13:09:13	Warning: 	Temporary Redirect for https://no.tribalwars.com/nb-no/
+13:09:13	Warning: 	File has moved from https://no.tribalwars.com/nb-no/ to https://www.tribalwars.net/nb-no/
+13:09:13	Error: 	"Not Found" (404) at link https://www.divoke-kmene.sk/nb-no/ (from https://www.tribalwars.net/nb-no/)
+13:09:13	Error: 	"Not Found" (404) at link https://www.klanhaboru.hu/nb-no/ (from https://www.tribalwars.net/nb-no/)
+13:09:14	Warning: 	Temporary Redirect for https://www.tribalwars.dk/nb-no/
+13:09:14	Warning: 	File has moved from https://www.tribalwars.dk/nb-no/ to https://www.tribalwars.net/da-dk/
+13:09:14	Error: 	"Not Found" (404) at link https://www.tribals.it/nb-no/ (from https://www.tribalwars.net/nb-no/)
+13:09:14	Error: 	"Not Found" (404) at link https://www.klanlar.org/nb-no/ (from https://www.tribalwars.net/nb-no/)
+13:09:14	Error: 	"Not Found" (404) at link https://www.guerretribale.fr/nb-no/ (from https://www.tribalwars.net/nb-no/)
+13:09:14	Error: 	"Not Found" (404) at link https://www.guerrastribales.es/nb-no/ (from https://www.tribalwars.net/nb-no/)
+13:09:14	Error: 	"Not Found" (404) at link https://www.tribalwars.ae/nb-no/ (from https://www.tribalwars.net/nb-no/)
+13:09:14	Error: 	"Not Found" (404) at link https://www.tribalwars.co.uk/nb-no/ (from https://www.tribalwars.net/nb-no/)
+13:09:14	Warning: 	Temporary Redirect for https://www.vojnaplemen.si/nb-no/
+13:09:14	Warning: 	File has moved from https://www.vojnaplemen.si/nb-no/ to https://www.tribalwars.net/sl-si
+13:09:14	Warning: 	Temporary Redirect for https://www.plemena.com/nb-no/
+13:09:14	Warning: 	File has moved from https://www.plemena.com/nb-no/ to https://www.tribalwars.net/hr-hr
+13:09:14	Warning: 	Temporary Redirect for https://www.tribalwars.asia/nb-no/
+13:09:14	Warning: 	File has moved from https://www.tribalwars.asia/nb-no/ to https://www.tribalwars.net/th-th
+13:09:14	Error: 	"Not Found" (404) at link https://www.tribalwars.us/nb-no/ (from https://www.tribalwars.net/nb-no/)
+13:09:14	Warning: 	Temporary Redirect for https://ua.tribalwars.net//nb-no/
+13:09:14	Warning: 	File has moved from https://ua.tribalwars.net//nb-no/ to https://www.voynaplemyon.com/uk-ua/
+13:09:14	Error: 	"Not Found" (404) at link https://www.die-staemme.de/da-dk/ (from https://www.tribalwars.net/da-dk/)
+13:09:14	Error: 	"Not Found" (404) at link https://www.staemme.ch/da-dk/ (from https://www.tribalwars.net/da-dk/)
+13:09:14	Error: 	"Not Found" (404) at link https://www.tribalwars.nl/da-dk/ (from https://www.tribalwars.net/da-dk/)
+13:09:14	Error: 	"Not Found" (404) at link https://www.plemiona.pl/da-dk/ (from https://www.tribalwars.net/da-dk/)
+13:09:14	Warning: 	Temporary Redirect for https://www.tribalwars.se/da-dk/
+13:09:14	Warning: 	File has moved from https://www.tribalwars.se/da-dk/ to https://www.tribalwars.net/sv-se
+13:09:14	Error: 	"Not Found" (404) at link https://www.tribalwars.com.br/da-dk/ (from https://www.tribalwars.net/da-dk/)
+13:09:14	Error: 	"Not Found" (404) at link https://www.tribalwars.com.pt/da-dk/ (from https://www.tribalwars.net/da-dk/)
+13:09:14	Error: 	"Not Found" (404) at link https://www.divokekmeny.cz/da-dk/ (from https://www.tribalwars.net/da-dk/)
+13:09:14	Error: 	"Not Found" (404) at link https://www.triburile.ro/da-dk/ (from https://www.tribalwars.net/da-dk/)
+13:09:14	Warning: 	Link https://www.voynaplemyon.com/da-dk/ not scanned (follow robots meta tag)
+13:09:14	Error: 	"Not Found" (404) at link https://www.fyletikesmaxes.gr/da-dk/ (from https://www.tribalwars.net/da-dk/)
+13:09:14	Warning: 	Temporary Redirect for https://no.tribalwars.com/da-dk/
+13:09:14	Warning: 	File has moved from https://no.tribalwars.com/da-dk/ to https://www.tribalwars.net/nb-no/
+13:09:14	Error: 	"Not Found" (404) at link https://www.divoke-kmene.sk/da-dk/ (from https://www.tribalwars.net/da-dk/)
+13:09:14	Error: 	"Not Found" (404) at link https://www.klanhaboru.hu/da-dk/ (from https://www.tribalwars.net/da-dk/)
+13:09:14	Warning: 	Temporary Redirect for https://www.tribalwars.dk/da-dk/
+13:09:14	Warning: 	File has moved from https://www.tribalwars.dk/da-dk/ to https://www.tribalwars.net/da-dk/
+13:09:14	Error: 	"Not Found" (404) at link https://www.tribals.it/da-dk/ (from https://www.tribalwars.net/da-dk/)
+13:09:14	Error: 	"Not Found" (404) at link https://www.klanlar.org/da-dk/ (from https://www.tribalwars.net/da-dk/)
+13:09:14	Error: 	"Not Found" (404) at link https://www.guerretribale.fr/da-dk/ (from https://www.tribalwars.net/da-dk/)
+13:09:14	Error: 	"Not Found" (404) at link https://www.guerrastribales.es/da-dk/ (from https://www.tribalwars.net/da-dk/)
+13:09:14	Error: 	"Not Found" (404) at link https://www.tribalwars.ae/da-dk/ (from https://www.tribalwars.net/da-dk/)
+13:09:14	Error: 	"Not Found" (404) at link https://www.tribalwars.co.uk/da-dk/ (from https://www.tribalwars.net/da-dk/)
+13:09:14	Warning: 	Temporary Redirect for https://www.vojnaplemen.si/da-dk/
+13:09:14	Warning: 	File has moved from https://www.vojnaplemen.si/da-dk/ to https://www.tribalwars.net/sl-si
+13:09:15	Warning: 	Temporary Redirect for https://www.plemena.com/da-dk/
+13:09:15	Warning: 	File has moved from https://www.plemena.com/da-dk/ to https://www.tribalwars.net/hr-hr
+13:09:15	Warning: 	Temporary Redirect for https://www.tribalwars.asia/da-dk/
+13:09:15	Warning: 	File has moved from https://www.tribalwars.asia/da-dk/ to https://www.tribalwars.net/th-th
+13:09:15	Error: 	"Not Found" (404) at link https://www.tribalwars.us/da-dk/ (from https://www.tribalwars.net/da-dk/)
+13:09:15	Warning: 	Temporary Redirect for https://ua.tribalwars.net//da-dk/
+13:09:15	Warning: 	File has moved from https://ua.tribalwars.net//da-dk/ to https://www.voynaplemyon.com/uk-ua/
+13:09:15	Error: 	"Not Found" (404) at link https://www.die-staemme.de/sl-si (from https://www.tribalwars.net/sl-si)
+13:09:15	Error: 	"Not Found" (404) at link https://www.staemme.ch/sl-si (from https://www.tribalwars.net/sl-si)
+13:09:15	Error: 	"Not Found" (404) at link https://www.tribalwars.nl/sl-si (from https://www.tribalwars.net/sl-si)
+13:09:15	Error: 	"Not Found" (404) at link https://www.plemiona.pl/sl-si (from https://www.tribalwars.net/sl-si)
+13:09:15	Error: 	"Not Found" (404) at link https://www.tribalwars.com.br/sl-si (from https://www.tribalwars.net/sl-si)
+13:09:15	Error: 	"Not Found" (404) at link https://www.tribalwars.com.pt/sl-si (from https://www.tribalwars.net/sl-si)
+13:09:15	Error: 	"Not Found" (404) at link https://www.divokekmeny.cz/sl-si (from https://www.tribalwars.net/sl-si)
+13:09:15	Error: 	"Not Found" (404) at link https://www.triburile.ro/sl-si (from https://www.tribalwars.net/sl-si)
+13:09:15	Warning: 	Link https://www.voynaplemyon.com/sl-si not scanned (follow robots meta tag)
+13:09:16	Error: 	"Not Found" (404) at link https://www.fyletikesmaxes.gr/sl-si (from https://www.tribalwars.net/sl-si)
+13:09:16	Error: 	"Not Found" (404) at link https://www.divoke-kmene.sk/sl-si (from https://www.tribalwars.net/sl-si)
+13:09:16	Error: 	"Not Found" (404) at link https://www.klanhaboru.hu/sl-si (from https://www.tribalwars.net/sl-si)
+13:09:16	Error: 	"Not Found" (404) at link https://www.tribals.it/sl-si (from https://www.tribalwars.net/sl-si)
+13:09:16	Error: 	"Not Found" (404) at link https://www.klanlar.org/sl-si (from https://www.tribalwars.net/sl-si)
+13:09:16	Error: 	"Not Found" (404) at link https://www.guerretribale.fr/sl-si (from https://www.tribalwars.net/sl-si)
+13:09:16	Error: 	"Not Found" (404) at link https://www.guerrastribales.es/sl-si (from https://www.tribalwars.net/sl-si)
+13:09:16	Error: 	"Not Found" (404) at link https://www.tribalwars.ae/sl-si (from https://www.tribalwars.net/sl-si)
+13:09:16	Error: 	"Not Found" (404) at link https://www.tribalwars.co.uk/sl-si (from https://www.tribalwars.net/sl-si)
+13:09:16	Error: 	"Not Found" (404) at link https://www.tribalwars.us/sl-si (from https://www.tribalwars.net/sl-si)
+13:09:16	Error: 	"Not Found" (404) at link https://www.die-staemme.de/hr-hr (from https://www.tribalwars.net/hr-hr)
+13:09:16	Error: 	"Not Found" (404) at link https://www.staemme.ch/hr-hr (from https://www.tribalwars.net/hr-hr)
+13:09:16	Error: 	"Not Found" (404) at link https://www.tribalwars.nl/hr-hr (from https://www.tribalwars.net/hr-hr)
+13:09:16	Error: 	"Not Found" (404) at link https://www.plemiona.pl/hr-hr (from https://www.tribalwars.net/hr-hr)
+13:09:16	Error: 	"Not Found" (404) at link https://www.tribalwars.com.br/hr-hr (from https://www.tribalwars.net/hr-hr)
+13:09:16	Error: 	"Not Found" (404) at link https://www.tribalwars.com.pt/hr-hr (from https://www.tribalwars.net/hr-hr)
+13:09:16	Error: 	"Not Found" (404) at link https://www.divokekmeny.cz/hr-hr (from https://www.tribalwars.net/hr-hr)
+13:09:16	Error: 	"Not Found" (404) at link https://www.triburile.ro/hr-hr (from https://www.tribalwars.net/hr-hr)
+13:09:16	Warning: 	Link https://www.voynaplemyon.com/hr-hr not scanned (follow robots meta tag)
+13:09:16	Error: 	"Not Found" (404) at link https://www.fyletikesmaxes.gr/hr-hr (from https://www.tribalwars.net/hr-hr)
+13:09:16	Error: 	"Not Found" (404) at link https://www.divoke-kmene.sk/hr-hr (from https://www.tribalwars.net/hr-hr)
+13:09:16	Error: 	"Not Found" (404) at link https://www.klanhaboru.hu/hr-hr (from https://www.tribalwars.net/hr-hr)
+13:09:16	Error: 	"Not Found" (404) at link https://www.tribals.it/hr-hr (from https://www.tribalwars.net/hr-hr)
+13:09:16	Error: 	"Not Found" (404) at link https://www.klanlar.org/hr-hr (from https://www.tribalwars.net/hr-hr)
+13:09:16	Error: 	"Not Found" (404) at link https://www.guerretribale.fr/hr-hr (from https://www.tribalwars.net/hr-hr)
+13:09:16	Error: 	"Not Found" (404) at link https://www.guerrastribales.es/hr-hr (from https://www.tribalwars.net/hr-hr)
+13:09:16	Error: 	"Not Found" (404) at link https://www.tribalwars.ae/hr-hr (from https://www.tribalwars.net/hr-hr)
+13:09:16	Error: 	"Not Found" (404) at link https://www.tribalwars.co.uk/hr-hr (from https://www.tribalwars.net/hr-hr)
+13:09:16	Error: 	"Not Found" (404) at link https://www.tribalwars.us/hr-hr (from https://www.tribalwars.net/hr-hr)
+13:09:16	Error: 	"Not Found" (404) at link https://www.die-staemme.de/th-th (from https://www.tribalwars.net/th-th)
+13:09:16	Error: 	"Not Found" (404) at link https://www.staemme.ch/th-th (from https://www.tribalwars.net/th-th)
+13:09:16	Error: 	"Not Found" (404) at link https://www.tribalwars.nl/th-th (from https://www.tribalwars.net/th-th)
+13:09:16	Error: 	"Not Found" (404) at link https://www.plemiona.pl/th-th (from https://www.tribalwars.net/th-th)
+13:09:16	Error: 	"Not Found" (404) at link https://www.tribalwars.com.br/th-th (from https://www.tribalwars.net/th-th)
+13:09:16	Error: 	"Not Found" (404) at link https://www.tribalwars.com.pt/th-th (from https://www.tribalwars.net/th-th)
+13:09:16	Error: 	"Not Found" (404) at link https://www.divokekmeny.cz/th-th (from https://www.tribalwars.net/th-th)
+13:09:16	Error: 	"Not Found" (404) at link https://www.triburile.ro/th-th (from https://www.tribalwars.net/th-th)
+13:09:17	Warning: 	Link https://www.voynaplemyon.com/th-th not scanned (follow robots meta tag)
+13:09:17	Error: 	"Not Found" (404) at link https://www.fyletikesmaxes.gr/th-th (from https://www.tribalwars.net/th-th)
+13:09:17	Error: 	"Not Found" (404) at link https://www.divoke-kmene.sk/th-th (from https://www.tribalwars.net/th-th)
+13:09:17	Error: 	"Not Found" (404) at link https://www.klanhaboru.hu/th-th (from https://www.tribalwars.net/th-th)
+13:09:17	Error: 	"Not Found" (404) at link https://www.tribals.it/th-th (from https://www.tribalwars.net/th-th)
+13:09:17	Error: 	"Not Found" (404) at link https://www.klanlar.org/th-th (from https://www.tribalwars.net/th-th)
+13:09:17	Error: 	"Not Found" (404) at link https://www.guerretribale.fr/th-th (from https://www.tribalwars.net/th-th)
+13:09:17	Error: 	"Not Found" (404) at link https://www.guerrastribales.es/th-th (from https://www.tribalwars.net/th-th)
+13:09:17	Error: 	"Not Found" (404) at link https://www.tribalwars.ae/th-th (from https://www.tribalwars.net/th-th)
+13:09:17	Error: 	"Not Found" (404) at link https://www.tribalwars.co.uk/th-th (from https://www.tribalwars.net/th-th)
+13:09:17	Error: 	"Not Found" (404) at link https://www.tribalwars.us/th-th (from https://www.tribalwars.net/th-th)
+13:09:17	Warning: 	Link https://www.tribalwars.net/uk-ua/ not scanned (follow robots meta tag)
+13:09:17	Error: 	"Not Found" (404) at link https://www.die-staemme.de/uk-ua/ (from https://www.voynaplemyon.com/uk-ua/)
+13:09:17	Error: 	"Not Found" (404) at link https://www.staemme.ch/uk-ua/ (from https://www.voynaplemyon.com/uk-ua/)
+13:09:17	Error: 	"Not Found" (404) at link https://www.tribalwars.nl/uk-ua/ (from https://www.voynaplemyon.com/uk-ua/)
+13:09:17	Error: 	"Not Found" (404) at link https://www.plemiona.pl/uk-ua/ (from https://www.voynaplemyon.com/uk-ua/)
+13:09:17	Warning: 	Temporary Redirect for https://www.tribalwars.se/uk-ua/
+13:09:17	Warning: 	File has moved from https://www.tribalwars.se/uk-ua/ to https://www.tribalwars.net/sv-se
+13:09:17	Error: 	"Not Found" (404) at link https://www.tribalwars.com.br/uk-ua/ (from https://www.voynaplemyon.com/uk-ua/)
+13:09:17	Error: 	"Not Found" (404) at link https://www.tribalwars.com.pt/uk-ua/ (from https://www.voynaplemyon.com/uk-ua/)
+13:09:17	Error: 	"Not Found" (404) at link https://www.divokekmeny.cz/uk-ua/ (from https://www.voynaplemyon.com/uk-ua/)
+13:09:17	Error: 	"Not Found" (404) at link https://www.triburile.ro/uk-ua/ (from https://www.voynaplemyon.com/uk-ua/)
+13:09:17	Error: 	"Not Found" (404) at link https://www.fyletikesmaxes.gr/uk-ua/ (from https://www.voynaplemyon.com/uk-ua/)
+13:09:17	Warning: 	Temporary Redirect for https://no.tribalwars.com/uk-ua/
+13:09:17	Warning: 	File has moved from https://no.tribalwars.com/uk-ua/ to https://www.tribalwars.net/nb-no/
+13:09:18	Error: 	"Not Found" (404) at link https://www.divoke-kmene.sk/uk-ua/ (from https://www.voynaplemyon.com/uk-ua/)
+13:09:18	Error: 	"Not Found" (404) at link https://www.klanhaboru.hu/uk-ua/ (from https://www.voynaplemyon.com/uk-ua/)
+13:09:18	Warning: 	Temporary Redirect for https://www.tribalwars.dk/uk-ua/
+13:09:18	Warning: 	File has moved from https://www.tribalwars.dk/uk-ua/ to https://www.tribalwars.net/da-dk/
+13:09:18	Error: 	"Not Found" (404) at link https://www.tribals.it/uk-ua/ (from https://www.voynaplemyon.com/uk-ua/)
+13:09:18	Error: 	"Not Found" (404) at link https://www.klanlar.org/uk-ua/ (from https://www.voynaplemyon.com/uk-ua/)
+13:09:18	Error: 	"Not Found" (404) at link https://www.guerretribale.fr/uk-ua/ (from https://www.voynaplemyon.com/uk-ua/)
+13:09:18	Error: 	"Not Found" (404) at link https://www.guerrastribales.es/uk-ua/ (from https://www.voynaplemyon.com/uk-ua/)
+13:09:18	Error: 	"Not Found" (404) at link https://www.tribalwars.ae/uk-ua/ (from https://www.voynaplemyon.com/uk-ua/)
+13:09:18	Error: 	"Not Found" (404) at link https://www.tribalwars.co.uk/uk-ua/ (from https://www.voynaplemyon.com/uk-ua/)
+13:09:18	Warning: 	Temporary Redirect for https://www.vojnaplemen.si/uk-ua/
+13:09:18	Warning: 	File has moved from https://www.vojnaplemen.si/uk-ua/ to https://www.tribalwars.net/sl-si
+13:09:18	Warning: 	Temporary Redirect for https://www.plemena.com/uk-ua/
+13:09:18	Warning: 	File has moved from https://www.plemena.com/uk-ua/ to https://www.tribalwars.net/hr-hr
+13:09:18	Warning: 	Temporary Redirect for https://www.tribalwars.asia/uk-ua/
+13:09:18	Warning: 	File has moved from https://www.tribalwars.asia/uk-ua/ to https://www.tribalwars.net/th-th
+13:09:18	Error: 	"Not Found" (404) at link https://www.tribalwars.us/uk-ua/ (from https://www.voynaplemyon.com/uk-ua/)
+13:09:18	Warning: 	Temporary Redirect for https://ua.tribalwars.net//uk-ua/
+13:09:18	Warning: 	File has moved from https://ua.tribalwars.net//uk-ua/ to https://www.voynaplemyon.com/uk-ua/
+
+HTTrack Website Copier/3.49-2 mirror complete in 10 minutes 33 seconds : 344 links scanned, 90 files written (3134072 bytes overall) [8258186 bytes received at 13046 bytes/sec], 3076408 bytes transferred using HTTP compression in 99 files, ratio 20%, 1.0 requests per connection
+(182 errors, 146 warnings, 0 messages)
