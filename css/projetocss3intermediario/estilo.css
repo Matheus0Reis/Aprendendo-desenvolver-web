@@ -1,0 +1,19 @@
+.conteudo {
+    border: 1px solid red;
+    /*padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;*/
+
+   /*padding: 20px 15px 10px 5px;*/
+
+   /*padding: 20px 5px;*/
+
+    padding: 20px;
+    margin-left: 550px;   /*da pra centralizaar a div e tambem usando top, left, right e bottom*/
+
+
+
+    width: 150px;
+
+}
