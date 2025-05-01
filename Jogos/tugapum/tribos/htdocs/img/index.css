@@ -1,0 +1,689 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body, html {
+font-family: Georgia, Georgia, Times, 'Times New Roman', serif;
+font-size: 14px;
+font-weight: bold;
+min-width: 960px;
+text-shadow: black 0px 1px 1px;
+color: #fff;
+background-color: #301a05;
+}
+
+a {
+outline: none;
+color: #f9d598;
+}
+
+input, select, textarea {
+font-family: Georgia, Georgia, Times, 'Times New Roman', serif;
+font-weight:bold;
+text-shadow: #DDD 0px 1px 1px;
+font-size: 14px;
+}
+
+.clearfix:after {
+content: ".";
+display: block;
+clear: both;
+visibility: hidden;
+line-height: 0;
+height: 0;
+}
+
+.clearfix {
+display: inline-block;
+}
+
+html[xmlns] .clearfix {
+display: block;
+}
+
+* html .clearfix {
+height: 1%;
+}
+
+#aboutBox {
+position:absolute;
+left: 25%;
+float: center;
+clear: both;
+background: url('img/border_top.jpg') repeat-x center 130px ;
+overflow: hidden;
+text-shadow: 0px 1px 1px #000;
+}
+
+#aboutBox .aboutText {
+width: 800px;
+}
+
+#aboutBox .aboutText h2 {
+color:#e5b86b;
+font-size: 16px;
+font-weight: normal;
+}
+
+#aboutBox .aboutText p {
+color: #a5682b;
+padding: 6px 0 0 0;
+}
+
+#aboutBox.short {
+background:none;
+padding-top:90px;
+padding-bottom:0;
+}
+
+#aboutBox.short .aboutText {
+width:455px;
+}
+
+#bodyBg {
+	width: 100%;
+	height: 100%;
+	background: #3f2107 url('ln.jpg') repeat-x 0;
+}
+
+
+#bodyWrapper {
+background: url('fundal.jpg') center 0 no-repeat;
+}
+
+#mainWrapper {
+width: 900px;
+padding: 70px 55px 30px 55px;
+position: relative;
+margin: 0 auto;
+min-height: 600px;
+}
+
+
+#error {
+z-index: 1;
+text-align:center;
+margin-left: 0px;
+padding: 5px 0px;
+background-color: #962d2d;
+border: 1px solid #ff8787;
+padding: 10px;
+margin: 10px 0 0 0;
+color: #fff;
+border-radius: 10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+font-weight: normal;
+}
+
+#succes {
+z-index: 1;
+text-align:center;
+margin-left: 0px;
+padding: 5px 0px;
+background-color: #689e24;
+border: 1px solid #c8e99e;
+padding: 10px;
+margin: 10px 0 0 0;
+color: #fff;
+font-weight: normal;
+border-radius: 10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+}
+
+#changeCountry {
+
+}
+
+#changeCountry .currentCountry {
+position: relative;
+z-index: 10;
+}
+
+#changeCountry .currentCountry img {
+vertical-align: top;
+margin: 0 3px 0 0;
+}
+
+#changeCountry ul#countriesList {
+display: none;
+width: 200px;
+max-height: 250px;
+overflow-y: scroll;
+position: absolute;
+right: 0;
+top: 23px;
+list-style: none;
+background: #EEB661;
+color: #452604;
+padding: 10px;
+font-weight: normal;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-top-right-radius: 0;
+-moz-border-radius-topright: 0;
+-webkit-border-top-right-radius: 0;
+box-shadow: 0px 3px 5px #000;
+-moz-box-shadow: 0px 3px 5px #000;
+-webkit-box-shadow: 0px 3px 5px #000;
+}
+
+#changeCountry:hover ul#countriesList {
+overflow: scroll;
+overflow-x: hidden;
+overflow-y: auto;
+display: block;
+}
+
+#changeCountry ul#countriesList li {
+font-size: 11px;
+padding: 3px 0;
+color: #633d13;
+border-bottom: 1px solid #d08c2f;
+}
+
+#changeCountry ul#countriesList li a {
+display: block;
+color: #633d13;
+text-decoration: none;
+text-shadow:0 1px 0 #fdd79e;
+font-weight: bold;
+}
+
+#changeCountry ul#countriesList li a:hover {
+color: #000000;
+}
+
+#changeCountry ul#countriesList li a img {
+vertical-align: middle;
+}
+
+#topMenu {
+position: absolute;
+top: 8px;
+left: 57%;
+z-index: 50;
+}
+
+#topMenu>ul>li {
+float: left;
+position: relative;
+display: inline;
+list-style-type: none;
+margin: 0 10px 0 0;
+}
+
+#topMenu>ul>li>a,
+#topMenu ul li .currentCountry {
+display: block;
+float: left;
+text-decoration: none;
+line-height: 11px;
+font-size: 11px;
+color: #f1dfcd;
+background: #452604;
+padding: 4px 8px 7px;
+cursor: pointer;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-top: 1px solid #1a0001;
+border-bottom:1px solid #774f2a;
+border-left:1px solid #452604;
+border-right:1px solid #452604;
+}
+
+#topMenu>ul>li>a:hover,
+#topMenu ul li #changeCountry:hover .currentCountry {
+background: #EEB661;
+color: #452604;
+border-color: #fdd79d #f2bd6c #EEB661;
+text-shadow:0 1px 0 #fdd79e;
+}
+
+#topMenu ul li #changeCountry:hover .currentCountry {
+border-bottom-right-radius: 0;
+border-bottom-left-radius: 0;
+-moz-border-radius-bottomright: 0;
+-moz-border-radius-bottomleft: 0;
+-webkit-border-bottom-right-radius: 0;
+-webkit-border-bottom-left-radius: 0;
+}
+
+#registerBox {
+float: left;
+width: 250px;
+min-height: 400px;
+text-shadow: 0px 1px 0px #000;
+}
+
+#registerBox .boxTitle,
+#loginBox .boxTitle {
+height: 28px;
+line-height: 28px;
+padding: 0 12px;
+font-weight: bold;
+text-transform: uppercase;
+text-shadow:0 1px 0 #000;
+font-size: 12px;
+}
+
+#registerBox .boxContent,
+#loginBox .boxContent {
+padding: 10px 15px 30px;
+}
+
+.row {
+padding: 0 0 4px 0;
+}
+
+.row label {
+display: block;
+color: #d49d42;
+}
+
+.row.terms {
+font-size: 11px;
+}
+
+.row.terms a:hover {
+text-decoration:none;
+}
+
+.row.terms label {
+display: inline;
+color:#d49d42;
+}
+
+.row input,
+.row select {
+background: #EEB660;
+background-image: initial;
+background-repeat-x: initial;
+background-repeat-y: initial;
+background-attachment: initial;
+background-position-x: initial;
+background-position-y: initial;
+background-origin: initial;
+background-clip: initial;
+background-color: #EEB660;
+background: #f8d697 url('input.jpg') repeat-x bottom center;
+border:1px solid #f8d697;
+margin:3px 0 5px;
+padding: 6px 5px;
+color: #000;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+box-shadow: 0px 0px 8px #000;
+-moz-box-shadow: 0px 0px 8px #000;
+-webkit-box-shadow: 0px 0px 8px #000;
+}
+
+.row input:focus,
+.row select:focus {
+background-position:top center;
+border: 1px solid #c3994a;
+}
+
+.row select option {
+background:none;
+}
+
+.buttonrow {
+padding: 5px 0 0 0;
+cursor: hand;
+}
+
+.buttonrow input {
+background: #724718 url('btn.jpg') repeat-x top center;
+border-top:1px solid #fad062;
+border-bottom:1px solid #1b1001;
+border-left:1px solid #aa7529;
+border-right:1px solid #aa7529;
+color: #201500;
+font-size: 14px;
+cursor: pointer;
+font-weight: bold;
+line-height: 14px;
+padding: 10px 15px;
+text-transform: uppercase;
+text-decoration: none;
+text-shadow: 0 1px 0 #edaa46;
+box-shadow: 0px 0px 8px #000;
+-moz-box-shadow: 0px 0px 8px #000;
+-webkit-box-shadow: 0px 0px 8px #000;
+border-radius: 10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+}
+
+.buttonrow input:hover {
+background-position: bottom center;
+}
+
+/* ----------------------------- */
+
+#loginBox {
+float: right;
+width: 250px;
+height: 200px;
+text-align: right;
+text-shadow: 0px 1px 0px #000;
+}
+
+#loginBox a {
+font-size: 11px;
+color: #d49d42;
+}
+
+#loginBox a:hover {
+color: #f9d598;
+text-decoration:underline;
+}
+
+#loginBox form {
+margin: 0 0 10px 0;
+}
+
+/* ----------------------------- */
+
+#mainWrapper .announcement_wrapper {
+position: absolute;
+top: 260px;
+left: 336px;
+}
+
+#mainWrapper .announcement_wrapper .announcement {
+width: 268px;
+background: #e03838;
+background: rgba(224,56,56,0.7);
+padding: 10px;
+margin: 15px 0;
+font-size: 11px;
+text-align: left;
+border: 1px solid #fff;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+box-shadow: 0px 0px 5px #fff;
+-moz-box-shadow: 0px 0px 5px #fff;
+-webkit-box-shadow: 0px 0px 5px #fff;
+}
+
+#mainWrapper .announcement_wrapper .announcement h2 {
+font-size: 14px;
+padding: 0 0 5px 0;
+}
+
+#mainWrapper .announcement_wrapper .announcement a {
+color: #fff;
+}
+
+#mainWrapper .announcement_wrapper .announcement.blueBox {
+background: #3264b4;
+background: rgba(50,100,180,0.75);
+}
+
+#mainWrapper .announcement_wrapper .announcement.crm_registration {
+	color: #000000;
+	border-color: #75470F;
+	background-color: #EEB660;
+	text-align: left;
+}
+
+
+.dialogBox {
+width: 860px;
+position: absolute;
+top: 100px;
+left: 50%;
+margin-left: -430px;
+z-index: 9999;
+}
+
+html>body .dialogBox span.shadowTop {
+display: block;
+height: 34px;
+background: url('../img/gate/dialog_shadow_top.png') no-repeat;
+}
+
+html>body .dialogBox span.shadowBottom {
+display: block;
+height: 34px;
+background: url('../img/gate/dialog_shadow_bottom.png') no-repeat;
+}
+
+.dialogBox .wrapper {
+background: #45290F;
+border: 2px solid #eeb660;
+padding: 15px;
+position: relative;
+min-height: 300px;
+border-radius: 10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+box-shadow: 0 0 20px #000;
+-moz-box-shadow: 0 0 20px #000;
+-webkit-box-shadow: 0 0 20px #000;
+}
+
+.dialogBox a.closeLink {
+display: block;
+position: absolute;
+height: 20px;
+font-size: 11px;
+font-weight: bold;
+line-height: 20px;
+text-transform: uppercase;
+color: #eeb660;
+text-decoration: none;
+}
+
+.dialogBox a.closeLink {
+right: 5px;
+top: 5px;
+background: url('../img/gate/dialog_close.gif') right 0 no-repeat;
+padding: 0 25px 0 0;
+}
+
+.dialogBox .registration,
+.dialogBox .feedback {
+padding-top: 30px;
+color: #fff;
+background: #573718 url('../img/gate/dialog_bknd_registration.jpg') no-repeat;
+}
+
+.dialogBox .registration dl.worldsList {
+overflow: hidden;
+}
+
+* html .dialogBox .registration dl.worldsList {
+height: 1%;
+}
+
+.dialogBox .registration dl.worldsList dd {
+float: left;
+margin: 5px;
+width: 257px;
+height: 156px;
+}
+
+.dialogBox .registration dl.worldsList dd a {
+display: block;
+cursor: pointer;
+width: 220px;
+height: 143px;
+border: 1px solid #eeb660;
+background-repeat: no-repeat;
+text-decoration: none;
+padding: 11px 0 0 35px;
+position: relative;
+}
+
+.dialogBox .registration dl.worldsList dd a:hover {
+background-position: 0 -154px;
+border-color: #fff;
+}
+
+.dialogBox .registration dl.worldsList dd a span {
+display: block;
+height: 16px;
+line-height: 16px;
+font-size: 14px;
+font-weight: bold;
+color: #eeb660;
+padding: 4px 0;
+}
+
+.dialogBox .registration dl.worldsList dd a span small {
+font-weight: normal;
+}
+
+.dialogBox .registration dl.worldsList dd a:hover span {
+color: #fff;
+}
+
+.dialogBox .registration dl.worldsList dd a .worldNote {
+position: absolute;
+bottom: 0;
+right: 0;
+height: 20px;
+line-height: 20px;
+color: #492c10;
+font-size: 11px;
+font-weight: bold;
+padding: 0 10px;
+background: url('../img/gate/register_world_note.gif') no-repeat;
+}
+
+.dialogBox .registration dl.worldsList dd a:hover .worldNote {
+background-position: 0 -20px;
+color: #000;
+}
+
+.dialogBox .registration dl.worldsList dd.worldDisabled {
+opacity: 0.3;
+-moz-opacity: 0.3;
+filter: alpha(opacity=30);
+}
+
+.dialogBox .registration dl.worldsList dd.worldDisabled a {
+cursor: default;
+}
+
+/* ---------------------------- */
+
+.dialogBox h3 {
+color: #EEB660;
+font-size: 18px;
+margin: 0 0 10px 0;
+}
+
+.dialogBox .formbox p.note {
+background: #EEB660;
+padding: 8px;
+margin: 7px 0;
+color: #000;
+}
+
+.dialogBox .formbox .row {
+padding: 5px 30px;
+}
+
+.dialogBox .formbox .row label {
+display: block;
+float: left;
+width: 350px;
+padding: 0 5px 10px 0;
+margin: 0 10px 0 0;
+text-align: right;
+border-bottom: 1px solid #c08750;
+}
+
+.dialogBox .formbox .row label a {
+color: #fff;
+}
+
+.dialogBox .formbox .buttonRow {
+padding: 20px 0;
+}
+
+.dialogBox .formbox .buttonRow a.submitButton {
+display: block;
+position: relative;
+margin: 0 auto;
+width: 283px;
+height: 57px;
+line-height: 57px;
+text-decoration: none;
+font-weight: bold;
+font-size: 16px;
+color: #573718;
+text-align: center;
+background: url('../img/gate/register_button.gif') no-repeat;
+text-transform: uppercase;
+}
+
+.dialogBox .formbox .buttonRow a.registerButton:hover {
+color: #000;
+background-position: 0 -57px;
+}
+
+/* ---------------------------- */
+
+.dialogBox table {
+
+}
+
+.dialogBox table thead tr td {
+font-size: 9px;
+text-transform: uppercase;
+background: #3a210a;
+padding: 5px;
+color: #fff;
+text-align: center;
+font-weight: bold;
+}
+
+.dialogBox table tbody tr td {
+border-bottom: 1px solid #c9a786;
+padding: 5px;
+color: #fff;
+}
+
+.dialogBox table tbody tr td a, .dialogBox table thead tr td a {
+color: #fff;
+}
+
+.dialogBox table tbody tr td img {
+vertical-align: middle;
+}
+
+.dialogBox table tbody tr td.special {
+border-bottom: 3px solid #d5b698;
+background: #B07845;
+}
+
+.dialogBox .info,
+.dialogBox .error {
+padding: 8px;
+margin: 10px;
+background-color: #d22b2b;
+border: 1px solid #ff0000;
+color: #ffffff;
+border-radius: 10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+box-shadow: 0 0 10px #000;
+-moz-box-shadow: 0 0 10px #000;
+-webkit-box-shadow: 0 0 10px #000;
+}
+
+.dialogBox .info {
+border-color: #7cb0ff;
+background-color: #3e6299;
+}

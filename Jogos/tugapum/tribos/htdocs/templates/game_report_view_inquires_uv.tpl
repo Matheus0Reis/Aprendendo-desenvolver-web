@@ -1,0 +1,2 @@
+<p><a href="game.php?village={$village.id}&amp;screen=info_player&amp;id={$report.from_user}">{$report.from_username}</a> solicitou umasubstituição de férias.</p>
+<a href="game.php?village={$village.id}&amp;screen=settings&amp;mode=vacation">&raquo; Modo de Férias</a>

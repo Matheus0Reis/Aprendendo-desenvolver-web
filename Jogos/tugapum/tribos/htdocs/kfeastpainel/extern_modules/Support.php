@@ -1,0 +1,6 @@
+<?
+
+$toolname="Support";
+$screenname="Support";
+
+?>

@@ -1,0 +1,39 @@
+body {
+    background:  url(imagem/gramado.jpg);
+}
+
+
+
+
+#menu {
+    
+    padding: 25px;
+}
+
+
+
+a {
+	color: #ffffff;
+	text-decoration: white;
+	font-weight: bold;
+	padding: 5px;
+    font-size: 24px;
+} 
+
+
+
+
+h1 {
+
+    font-size: 100px;
+    color: white;
+    padding: 1px;
+}
+
+
+
+h2 {
+    font-size: 20px;
+    color: white;
+    padding: 1px;
+}

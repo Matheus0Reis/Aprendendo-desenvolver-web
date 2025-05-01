@@ -1,0 +1,2 @@
+<p><a href="game.php?village={$village.id}&amp;screen=info_player&amp;id={$report.from_user}">{$report.from_username}</a> cancelou a solicitação de substituição de férias.</p>
+<a href="game.php?village={$village.id}&amp;screen=settings&amp;mode=vacation">Modo de Férias</a>

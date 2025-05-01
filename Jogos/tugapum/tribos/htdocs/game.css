@@ -1,0 +1,42 @@
+
+
+ #footer { 
+	position: fixed; 
+	left: 0; 
+	bottom: 0; 
+	width: 100%; 
+	height:25px;  
+	background: transparent url(graphic/index/footer.png) scroll center top repeat-x; 
+	z-index: 9999; 
+	cursor: default; 
+ } 
+ 
+  
+  #footer #linkContainer { 
+  height:21px;  
+  width: 60%; 
+  max-width: 830px; 
+  margin: 0 auto; 
+  position: relative; 
+  top: 3px; } 
+  #footer #footer_left { float: left; margin-top: 3px; } 
+  #footer #footer_right { float: right; margin-top: 3px; } 
+  #footer, #footer a { color:#000000; } 
+  #footer a { cursor: pointer; } 
+  #footer a:hover { color: #8B5A2B; } 
+  
+   div.award { border: 1px solid #AF8E36; } 
+   .award { width:60px; } 
+   
+   .award.level0 { background-image:url(/graphic/awards/frame0.png); } 
+   .award.level1 { background-image:url(/graphic/awards/frame1.png); } 
+   .award.level2 { background-image:url(/graphic/awards/frame2.png); } 
+   .award.level3 { background-image:url(/graphic/awards/frame3.png); } 
+   .award.level4 { background-image:url(/graphic/awards/frame4.png); } 
+   .award img { margin:7px; } 
+   .awardmini { border: 1px solid #AF8E36; width:16px; float:left; margin:2px; } 
+   .awardmini.level1 { background-image:url(/graphic/awards/frame1_mini.png); } 
+   .awardmini.level2 { background-image:url(/graphic/awards/frame2_mini.png); } 
+   .awardmini.level3 { background-image:url(/graphic/awards/frame3_mini.png); } 
+   .awardmini.level4 { background-image:url(/graphic/awards/frame4_mini.png); } 
+   .awardmini img { margin:2px; width: 12px; height: 12px; }

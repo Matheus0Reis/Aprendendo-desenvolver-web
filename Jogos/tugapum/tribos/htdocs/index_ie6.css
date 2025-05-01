@@ -1,0 +1,7 @@
+#header .logo-fz a{
+	background:url(none.gif) fixed;
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-logo-fz.png', sizingmethod='crop');
+}
+* html .container{
+	height: 280px;
+}

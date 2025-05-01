@@ -1,0 +1,1 @@
+<h3>Bara de editare rapida</h3>

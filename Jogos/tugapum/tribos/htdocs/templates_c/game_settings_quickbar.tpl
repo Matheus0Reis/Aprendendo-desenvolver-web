@@ -1,0 +1,1 @@
+<b>Esta ferramenta está configurada para cada jogador.
