@@ -1,57 +1,12 @@
 body {
-    background: #33334d;
     margin: 0;
     font-family: Arial, sans-serif;
     display: flex;
+  }
   
-
-}
-
-
-
-
-#menu {
-    
-    padding: 25px;
-}
-
-
-
-a {
-	color: #ffffff;
-	text-decoration: white;
-	font-weight: bold;
-	padding: 5px;
-    font-size: 24px;
-} 
-
-
-
-
-h1 {
-
-    font-size: 100px;
-    color: white;
-    padding: 1px;
-}
-
-
-
-h2 {
-    font-size: 20px;
-    color: white;
-    padding: 1px;
-}
-
-
-.cadastro {
-    color: white;
-}
-
-
   .sidebar {
     width: 220px;
-    background:  url(imagem/gramado.jpg);
+    background-color: #1e1e2f;
     color: white;
     height: 100vh;
     padding: 20px;
@@ -92,5 +47,19 @@ h2 {
   
   .hidden {
     display: none;
+  }
+  
+
+
+  .sidebar nav a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    transition: background 0.2s;
+  }
+  
+  .sidebar nav a:hover {
+    background-color: #33334d;
   }
   

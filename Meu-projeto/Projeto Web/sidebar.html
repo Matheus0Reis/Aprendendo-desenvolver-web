@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sidebar Navegação</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+    <div class="sidebar">
+      <h2>Menu</h2>
+      <nav>
+        <a href="#" onclick="showPage(event, 'home')">🏠 Início</a>
+        <a href="#" onclick="showPage(event, 'produtos')">📦 Produtos</a>
+        <a href="#" onclick="showPage(event, 'clientes')">👥 Clientes</a>
+        <a href="#" onclick="showPage(event, 'config')">⚙️ Configurações</a>
+      </nav>
+    </div>
+    
+
+  <div class="content">
+    <div id="home" class="page">Bem-vindo à página inicial!</div>
+    <div id="produtos" class="page hidden">Aqui estão seus produtos.</div>
+    <div id="clientes" class="page hidden">Lista de clientes cadastrados.</div>
+    <div id="config" class="page hidden">Configurações do sistema.</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

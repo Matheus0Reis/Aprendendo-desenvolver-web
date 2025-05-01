@@ -12,21 +12,7 @@
     <meta charset="utf-8">
 
     <link rel="stylesheet" type="text/css" href="estilo.css">
-
-
-
-<div id="menu">
-
-    <a href="home.html">HOME |</a>
-    <a href="rodada.html">RODADA |</a>
-    <a href="cadastro.html">CADASTRO |</a>
-    <a href="jogos.html">JOGOS |</a>
-    <a href="pessoas-participando.html">PESSOAS PARTICIPANDO |</a>
-    <a href="premiacoes.html">PREMIAÇÔES |</a>
-    <a href="acompanhar.html">ACOMPANHAR BOLÂO </a>
-
-
-</div>    
+    
 </head>
 
 
@@ -38,11 +24,24 @@
 
 
 <body>
-    
-<div>
+    <div class="sidebar">
+        <h2>Menu</h2>
+        <nav>
+          <a href="home.html" onclick="showPage(event, 'home')">Home</a> <br>
+          <a href="rodada.html" onclick="showPage(event, 'rodada')">Rodada</a> <br>
+          <a href="cadastro.html" onclick="showPage(event, 'cadastro')">Cadastro</a> <br>
+          <a href="jogos.html" onclick="showPage(event, 'jogos')">Jogos</a> <br>
+          <a href="participantes.html" onclick="showPage(event, 'participantes')">Participantes</a> <br>
+          <a href="premiacoes.html" onclick="showPage(event, 'premiacões')">Premiações</a> <br>
+          <a href="acompanhar.html" onclick="showPage(event, 'acompanhar')">Acompanhar</a> <br>
+        </nav>
+      </div>
 
-    
-  
+
+
+
+
+<div>
 
 </div>
 
@@ -52,9 +51,11 @@
 
 
 <div>
+ 
 
+</div>
+      <script src="script.js"></script>
    
-</div>
 
     
 </body>
