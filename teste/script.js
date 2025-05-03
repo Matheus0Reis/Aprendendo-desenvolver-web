@@ -1,4 +1,4 @@
-function showPage(pageId) {
+/*function showPage(pageId) {
     const pages = document.querySelectorAll('.page');
     pages.forEach(page => page.classList.add('hidden'));
   
@@ -8,3 +8,11 @@ function showPage(pageId) {
     }
   }
   
+*/
+
+  const btn = document.getElementById('toggle-btn');
+  const sidebar = document.getElementById('sidebar');
+  
+  btn.addEventListener('click', () => {
+    sidebar.classList.toggle('active');
+  });

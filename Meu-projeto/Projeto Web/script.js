@@ -1,4 +1,4 @@
-function showPage(event, pageId) {
+/*function showPage(event, pageId) {
     event.preventDefault(); // impede o recarregamento da página
   
     const pages = document.querySelectorAll('.page');
@@ -9,4 +9,13 @@ function showPage(event, pageId) {
       selectedPage.classList.remove('hidden');
     }
   }
+  */
+
+
+  const btn = document.getElementById('toggle-btn');
+  const sidebar = document.getElementById('sidebar');
+  
+  btn.addEventListener('click', () => {
+    sidebar.classList.toggle('active');
+  });
   
