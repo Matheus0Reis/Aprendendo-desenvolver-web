@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS meu_bolao;
+
+USE meu_bolao;
+
+CREATE TABLE participantes (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  nome VARCHAR(100),
+  email VARCHAR(100)
+);
