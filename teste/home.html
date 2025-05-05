@@ -25,7 +25,7 @@
 
 
 
-<body>
+
     <div class="sidebar" id="sidebar">
         <h2>Menu</h2>
         <nav>
@@ -42,19 +42,21 @@
       <button id="toggle-btn">☰</button>
 
 
-
-<div>
+<body>
+<div class="cadastro">
 
     
     <form>
-            <h2>Loguin: <br>
-            <input type="text" name="loguin"><br>
+            <h2>
+            <input type="text" name="nome" placeholder="Nome" required><br><br>
 
-                Senha: <br>
-            <input type="password" name="senha"><br>
+            
+            <input type="password" name="senha" id="senha" placeholder="Senha" required minlength="6"><br>
             <input type="submit" value="logar">
             </h2>
     
+            <a href="recuperar.html" onclick="showPage(event, 'recuperar')" class="info">Esqueci minha senha</a> <br>
+            <a href="cadastro.html" onclick="showPage(event, 'cadastro')" class="info">Cadastre-se</a> 
 
     </form>    
   

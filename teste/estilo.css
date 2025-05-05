@@ -1,9 +1,10 @@
 body {
     background: #33334d;
-    margin: 0;
+    
     font-family: Arial, sans-serif;
     display: flex;
-  
+    justify-content: center; /* Alinha no centro horizontal */
+    align-items: center;     /* Alinha no centro vertical */
 
 }
 
@@ -17,9 +18,6 @@ body {
 }
 
 
-.menusidebar {
-  margin-top: 40px;
-}
 
 
 
@@ -53,13 +51,60 @@ h2 {
 
 .cadastro {
     color: white;
-}
+    /*padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;*/
+   /*padding: 20px 15px 10px 5px;*/
+   /*padding: 20px 5px;*/
+   
+    text-align: center;
+    background: rgb(0, 0, 0);
+    border: 3px outset;
+    border-radius: 20px 20px 20px 20px;
 
+  }
+
+  .rodada {
+    background: rgb(0, 0, 0);
+    
+    border: 3px outset;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+    
+  }
+
+
+  .premiacoes {
+    background: rgb(0, 0, 0);
+   
+    border: 3px outset;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+    
+  }
+
+
+  .acompanhar {
+    background: rgb(0, 0, 0);
+    
+    border: 3px outset;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+  }
+
+  .participantes {
+    background: rgb(0, 0, 0);
+    
+    border: 3px outset;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+  }
 
   .sidebar {
     width: 220px;
     background:  url(imagem/gramado2.jpg);
-    color: white;
+    color: rgb(255, 255, 255);
     height: 100vh;
     padding: 20px;
     box-sizing: border-box;
@@ -140,9 +185,72 @@ h2 {
   
 
 
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  
+  
+
+
+  
+
+  .titulo {
+    margin-bottom: 10px;
   }
   
+  .info {
+    font-size: 14px;
+    color: #ffffff;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  input[type="number"] {
+    width: 40px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+  }
+  
+  .btn {
+    background-color: #d35400;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+  
+  .btn:hover {
+    background-color: #e67e22;
+  }
+  
+  
+
+
+
+  .barra-laranja {
+    background-color: #e67e22;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    width: 40px;
+  }
+
+
+
+
+  .posicao {
+    background-color: #e67e22;
+    color: white;
+    font-weight: bold;
+  }

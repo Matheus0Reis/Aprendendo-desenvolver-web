@@ -1,5 +1,5 @@
 .conteudo {
-    border: 1px solid red;
+    border: 1px solid rgb(107, 126, 129);
     /*padding-top: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
@@ -9,10 +9,8 @@
 
    /*padding: 20px 5px;*/
 
-    padding: 20px;
+    padding-top: 20px;
     margin-left: 550px;   /*da pra centralizaar a div e tambem usando top, left, right e bottom*/
-
-
 
     width: 150px;
 
